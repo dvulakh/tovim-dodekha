@@ -1,0 +1,4 @@
+\selectlanguage *{hebrew}
+\contentsline {section}{ברכת המזון}{}{}%
+\contentsline {subsection}{תהלים לפני זימון}{}{}%
+\contentsline {subsection}{זימון}{}{}%
