@@ -62,64 +62,69 @@
 
 % pretty
 
-\newenvironment{ornatebox}[1][\textwidth]{%
+% corner side corner_size side_len textwidth
+\newenvironment{ornatebox}[5]{%
+  \def\corner{#1}
+  \def\side{#2}
+  \def\size{#3}
+  \def\sidelen{#4}
   \centering
     \begin{tikzpicture}[every node/.style={inner sep=0pt}]
       % open the node and the varwidth so that user content goes inside it
-      \node[inner sep=1mm, align=center, text width=0.6\textwidth] (box)
-      \bgroup \RL \bgroup%
+      \node[inner sep=2mm, align=justify, text width=#5] (box)
+      \bgroup%
+      \RL \bgroup%
+      \setlength{\parindent}{0pt}
+      \setlength{\leftskip}{0pt plus -0.5fil}%
+      \setlength{\rightskip}{0pt plus 0.5fil}%
+      %\parfillskip 0pt plus fil%
         %\begin{varwidth}{\textwidth}\centering\ignorespaces
 }{% <-- end of begin-code, start of end-code
         % close varwidth, close node (the semicolon ends the \node)
         %\unskip\end{varwidth}
-        \unskip
+      \par
       \egroup \egroup; % end \node
-%\node[anchor=north west] at (box.north west){%
-%\pgfornament[width=0.2*\framesize]{63}};
-%\node[anchor=north east] at (box.north east){%
-%\pgfornament[width=0.2*\framesize,symmetry=v]{63}};
-%\node[anchor=south west] at (box.south west){%
-%\pgfornament[width=0.2*\framesize,symmetry=h]{63}};
-%\node[anchor=south east] at (box.south east){%
-%\pgfornament[width=0.2*\framesize,symmetry=c]{63}};
-%\node[anchor=north] at (box.north){%
-%\pgfornament[width=0.6*\framesize,symmetry=h]{46}};
-%\node[anchor=south] at (box.south){%
-%\pgfornament[width=0.6*\framesize]{46}};
-%\node[anchor=north,rotate=90] at (box.west){%
-%\pgfornament[width=0.6*\framesize,symmetry=h]{46}};
-%\node[anchor=north,rotate=-90] at (box.east){%
-%\pgfornament[width=0.6*\framesize,symmetry=h]{46}};
 
-     \node[anchor=center](CNW)
-     at (box.north west) {\pgfornament[width=0.6in]{63}};
-     \node[anchor=center](CNE)
-     at (box.north east) {\pgfornament[width=0.6in,symmetry=v]{63}};
-     \node[anchor=center](CSW)
-     at (box.south west) {\pgfornament[width=0.6in,symmetry=h]{63}};
-     \node[anchor=center](CSE)
-     at (box.south east) {\pgfornament[width=0.6in,symmetry=c]{63}};
+      \node[anchor=center](CNW)
+      at (box.north west) {\pgfornament[width=\size]{\corner}};
+      \node[anchor=center](CNE)
+      at (box.north east) {\pgfornament[width=\size,symmetry=v]{\corner}};
+      \node[anchor=center](CSW)
+      at (box.south west) {\pgfornament[width=\size,symmetry=h]{\corner}};
+      \node[anchor=center](CSE)
+      at (box.south east) {\pgfornament[width=\size,symmetry=c]{\corner}};
 
-     \pgfornamentline{CNW.north east}{CNE.north west}{3}{70}
-     \pgfornamentline{CSW.south east}{CSE.south west}{3}{70}
-     \pgfornamentline{CNW.south west}{CSW.north west}{1}{70}
-     \pgfornamentline{CNE.south east}{CSE.north east}{1}{70}
-     %\pgfornamenthline{CNW}{CNE}{north}{70}
-     %\pgfornamenthline{CSW}{CSE}{south}{70}
-     %\pgfornamentvline{CNW}{CSW}{west}{70}{2}
-     %\pgfornamentvline{CNE}{CSE}{east}{70}{2}
+      % measure box size
+      \path let \p1 = (box.north east), \p2 = (box.south west) in
+        \pgfextra{
+          \pgfmathsetmacro{\boxwidth}{\x1-\x2-2*\size}
+          \pgfmathsetmacro{\boxheight}{\y1-\y2-2*\size}
+          \pgfmathsetmacro{\boxwidthin}{\boxwidth/\sidelen}
+          \pgfmathsetmacro{\boxheightin}{\boxheight/\sidelen}
+          \pgfmathtruncatemacro{\numh}{max(1,ceil(\boxwidthin))}
+          \pgfmathtruncatemacro{\numv}{max(1,ceil(\boxheightin))}
+          \pgfornamentline{CNE.north west}{CNW.north east}{\numh}{\side}
+          \pgfornamentline{CSW.south east}{CSE.south west}{\numh}{\side}
+          \pgfornamentline{CNW.south west}{CSW.north west}{\numv}{\side}
+          \pgfornamentline{CSE.north east}{CNE.south east}{\numv}{\side}
+        };
 
-%     % add corner ornaments
-%     % Top left corner
-%     \node[inner sep=0pt, anchor=center] at (box.north west) {\pgfornament[width=0.7cm]{61}};
-%     % Top right corner
-%     \node[inner sep=0pt, anchor=center] at (box.north east) {\pgfornament[width=0.7cm]{62}};
-%     % Bottom left corner (rotated around its center)
-%     \node[inner sep=0pt, anchor=center, rotate=180] at (box.south west) {\pgfornament[width=0.7cm]{62}};
-%     % Bottom right corner (rotated around its center)
-%     \node[inner sep=0pt, anchor=center, rotate=180] at (box.south east) {\pgfornament[width=0.7cm]{61}};
     \end{tikzpicture}
     \par
+}
+
+\newenvironment{floralbox}[1][0.6\textwidth]{%
+  \begin{ornatebox}{63}{70}{0.6in}{0.75in}{#1}
+  %\begin{ornatebox}{39}{46}{0.4in}{3}{1}
+}{
+  \end{ornatebox}
+}
+
+\newenvironment{simplebox}[1][0.8\textwidth]{%
+  \begin{ornatebox}{37}{85}{0.3in}{1in}{#1}
+  %\begin{ornatebox}{39}{46}{0.4in}{3}{1}
+}{
+  \end{ornatebox}
 }
 
 % RTL
@@ -149,16 +154,17 @@
 \vspace{0.5in}
 {\plain בענטשער}\\
 \vspace{0.125in}
-\begin{ornatebox}
+\begin{floralbox}
+%\centering
 \fontsize{40}{60}\selectfont
-טוֹבִ֥ים\; דֹּדֶ֖יךָ\par מִיָּֽיִן
-\end{ornatebox}
+טוֹבִ֥ים\; דֹּדֶ֖יךָ \par מִיָּֽיִן%
+\end{floralbox}
 %\wholeline{\textbf{טוֹבִ֥ים דֹּדֶ֖יךָ מִיָּֽיִן}}
 \vspace{0.5in}
 {\plain שמחת הנישואין של} \\
 \vspace{0.125in}
 {\Huge דוד אריה וולך} \\
-{\Huge וסימן טוב רזיאל קליינר} \\
+{\Huge וסימן־טוב רזיאל קליינר} \\
 \vspace{0.125in}
 {\plain ראש חודש טבת תשפ״ו}
 
@@ -243,6 +249,7 @@
 \end{samepage}
 
 \begin{samepage}
+\begin{simplebox}
 \instruction{בחנוכה:}\\
 בִּימֵי מַתִּתְיָהוּ בֶן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנָאִי וּבָנָיו כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה
 עַל־עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ. וְאַתָּה, בְּרַחֲמֶיךָ הָרַבִּים
@@ -252,13 +259,16 @@
 עָשִׂיתָ תְּשׁוּעָה גְדוֹלָה וּפֻרְקָן כְּהַיּוֹם הַזֶּה. וְאַחַר־כָּךְ בָּאוּ בָנֶיךָ לִדְבִיר בֵּיתֶךָ, וּפִנּוּ
 אֶת־הֵיכָלֶךָ וְטִהֲרוּ אֶת־מִקְדָּשֶׁךָ וְהִדְלִיקוּ נֵרוֹת בְּחַצְרוֹת קָדְשֶׁךָ, וְקָבְעוּ שְׁמוֹנַת יְמֵי
 חֲנֻכָּה אֵלּוּ לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל.
+\end{simplebox}
 
+\begin{simplebox}
 \instruction{בפורים:}\\
 בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, {\mikra
 לְהַשְׁמִ֡יד\mekor{אסתר ג יג}לַהֲרֹ֣ג וּלְאַבֵּ֣ד אֶת־כׇּל־הַ֠יְּהוּדִ֠ים מִנַּ֨עַר וְעַד־זָקֵ֜ן טַ֤ף
 וְנָשִׁים֙ בְּי֣וֹם אֶחָ֔ד בִּשְׁלוֹשָׁ֥ה עָשָׂ֛ר לְחֹ֥דֶשׁ שְׁנֵים־עָשָׂ֖ר הוּא־חֹ֣דֶשׁ אֲדָ֑ר וּשְׁלָלָ֖ם לָבֽוֹז:}
 וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת־עֲצָתוֹ וְקִלְקַלְתָּ אֶת־מַחֲשַׁבְתּוֹ וַהֲשֵׁבֹתָ לוֹ גְּמוּלוֹ
 בְרֹאשׁוֹ, וְתָלוּ אוֹתוֹ וְאֶת בָּנָיו עַל הָעֵץ.
+\end{simplebox}
 \end{samepage}
 
 \begin{samepage}
