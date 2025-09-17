@@ -18,6 +18,7 @@
 \usepackage{multicol}
 \setlength{\columnsep}{1cm}
 
+\usepackage{marginnote}
 \usepackage{tikz}
 \usepackage{pgfornament}
 \usetikzlibrary{calc}
@@ -32,7 +33,7 @@
 %\newfontfamily\titlefont[Script=Hebrew,Scale=1.25]{Yiddishkeit AlefAlefAlef Bold}
 \newfontfamily\titlefont[Script=Hebrew,Scale=1.25]{Drugulin CLM}
 \newfontfamily\mikra[Script=Hebrew,Scale=1.2]{Keter Aram Tsova}
-\newfontfamily\rashi[Script=Hebrew,Scale=1.25]{Noto Rashi Hebrew}
+\newfontfamily\rashi[Script=Hebrew,Scale=1]{Mekorot-Rashi}
 \newfontfamily\plain[Script=Hebrew,Scale=1.25]{David Libre Medium}
 
 \newcommand{\instruction}[1]{%
@@ -41,17 +42,18 @@
 
 % formats
 
-\newcommand{\wholeline}[1]{%
+\newcommand{\wholeline}[2][]{%
 \\
+#1%
 \adjustbox{max width=\textwidth}
 {\RL{
 \fontsize{100}{120}
-#1
+#2
 }}
 }
 
 \newcommand{\mekor}[1]{%
-  \marginpar{\tiny #1}
+  \marginnote{\rashi\tiny #1}
 }
 
 % abbrevs
@@ -74,6 +76,7 @@
       \node[inner sep=2mm, align=justify, text width=#5] (box)
       \bgroup%
       \RL \bgroup%
+      \setlength{\parskip}{0pt}
       \setlength{\parindent}{0pt}
       \setlength{\leftskip}{0pt plus -0.5fil}%
       \setlength{\rightskip}{0pt plus 0.5fil}%
@@ -156,10 +159,10 @@
 \vspace{0.125in}
 \begin{floralbox}
 %\centering
+%\setlength{\parskip}{-0.5em}
 \fontsize{40}{60}\selectfont
 טוֹבִ֥ים\; דֹּדֶ֖יךָ \par מִיָּֽיִן%
 \end{floralbox}
-%\wholeline{\textbf{טוֹבִ֥ים דֹּדֶ֖יךָ מִיָּֽיִן}}
 \vspace{0.5in}
 {\plain שמחת הנישואין של} \\
 \vspace{0.125in}
@@ -225,8 +228,7 @@
 הוּא {\mikra נֹתֵ֣ן\mekor{\ps קלו כה}לֶ֭חֶם לְכׇל־בָּשָׂ֑ר כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ}. וּבְטוּבוֹ
 הַגָּדוֹל תָּמִיד לֹא חָסַר לָֽנוּ וְאַל יֶחְסַר לָֽנוּ מָזוֹן לְעוֹלָם וָעֶד, בַּעֲבוּר שְׁמוֹ הַגָּדוֹל, כִּי
 הוּא אֵל זָן וּמְפַרְנֵס לַכֹּל וּמֵטִיב לַכֹּל, וּמֵכִין מָזוֹן לְכׇל בְּרִיּוֹתָיו אֲשֶׁר בָּרָא. כָּאָמוּר,
-\mekor{\ps קמה טז}
-\wholeline{\mikra{פּוֹתֵ֥חַ אֶת־יָדֶ֑ךָ וּמַשְׂבִּ֖יעַ לְכׇל־חַ֣י רָצֽוֹן:}}\par
+\wholeline[\mekor{\ps קמה טז}]{\mikra{פּוֹתֵ֥חַ אֶת־יָדֶ֑ךָ וּמַשְׂבִּ֖יעַ לְכׇל־חַ֣י רָצֽוֹן:}}\par
 {\Large\centering {בָּרוּךְ אַתָּה יְיָ הַזָּן אֶת הַכֹּל.}\par}
 \end{samepage}
 
@@ -240,17 +242,19 @@
 \end{samepage}
 
 \begin{samepage}
+
+\begin{floralbox}
 \instruction{בחנוכה ובפורים:}
 
-\begin{center}
-{\Large עַל־הַנִּסִּים וְעַל־הַפֻּרְקָן וְעַל־הַגְּבוּרוֹת וְעַל־הַתְּשׁוּעוֹת וְעַל־הַמִּלְחָמוֹת שֶׁעָשִׂיתָ
-לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה}
-\end{center}
+{\LARGE\centering עַל־הַנִּסִּים וְעַל־הַפֻּרְקָן וְעַל־הַגְּבוּרוֹת וְעַל־הַתְּשׁוּעוֹת
+וְעַל־הַמִּלְחָמוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה\par}
+\end{floralbox}
 \end{samepage}
 
 \begin{samepage}
 \begin{simplebox}
 \instruction{בחנוכה:}\\
+\footnotesize
 בִּימֵי מַתִּתְיָהוּ בֶן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנָאִי וּבָנָיו כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה
 עַל־עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ. וְאַתָּה, בְּרַחֲמֶיךָ הָרַבִּים
 עָמַדְתָּ לָהֶם בְּעֵת צָרָתָם, רַבְתָּ אֶת־רִיבָם, דַּנְתָּ אֶת־דִּינָם, נָקַמְתָּ אֶת־נִקְמָתָם. מָסַרְתָּ
@@ -263,6 +267,7 @@
 
 \begin{simplebox}
 \instruction{בפורים:}\\
+\footnotesize
 בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, {\mikra
 לְהַשְׁמִ֡יד\mekor{אסתר ג יג}לַהֲרֹ֣ג וּלְאַבֵּ֣ד אֶת־כׇּל־הַ֠יְּהוּדִ֠ים מִנַּ֨עַר וְעַד־זָקֵ֜ן טַ֤ף
 וְנָשִׁים֙ בְּי֣וֹם אֶחָ֔ד בִּשְׁלוֹשָׁ֥ה עָשָׂ֛ר לְחֹ֥דֶשׁ שְׁנֵים־עָשָׂ֖ר הוּא־חֹ֣דֶשׁ אֲדָ֑ר וּשְׁלָלָ֖ם לָבֽוֹז:}
@@ -274,7 +279,7 @@
 \begin{samepage}
 וְעַל הַכֹּל יְיָ אֱלֹהֵֽינוּ אֲנַֽחְנוּ מוֹדִים לָךְ וּמְבָרְכִים אוֹתָךְ, יִתְבָּרַךְ שִׁמְךָ בְּפִי כׇּל חַי
 תָּמִיד לְעוֹלָם וָעֶד, כַּכָּתוּב:
-\mekor{דברים ח י}\wholeline{\mikra וְאָכַלְתָּ֖ וְשָׂבָ֑עְתָּ וּבֵֽרַכְתָּ֙ אֶת־יְהֹוָ֣ה אֱלֹהֶ֔יךָ}\\
+\wholeline[\mekor{דברים ח י}]{\mikra וְאָכַלְתָּ֖ וְשָׂבָ֑עְתָּ וּבֵֽרַכְתָּ֙ אֶת־יְהֹוָ֣ה אֱלֹהֶ֔יךָ}\\
 \wholeline{\mikra עַל־הָאָ֥רֶץ הַטֹּבָ֖ה אֲשֶׁ֥ר נָֽתַן־לָֽךְ:}\par
 {\Large\centering בָּרוּךְ אַתָּה יְיָ עַל הָאָֽרֶץ וְעַל הַמָּזוֹן.\par}
 \end{samepage}
