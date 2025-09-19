@@ -49,14 +49,14 @@
 }}
 }
 
-\newcommand{\mekor}[1]{%
-  \marginnote{\rashi\tiny #1}
+\newcommand{\mekor}[2][0pt]{%
+  \marginnote{\rashi\tiny #2}[#1]
 }
 
 \newcommand{\pasuk}[2][]{%
   {\mikra%
   \if\relax\detokenize{#1}\relax\else
-    \mekor{#1}%
+    \mekor[0pt]{#1}%
   \fi%
   #2
   }
@@ -77,7 +77,7 @@
   \def\size{#3}
   \def\sidelen{#4}
   \centering
-    \begin{tikzpicture}[every node/.style={inner sep=0pt}]
+  \begin{tikzpicture}[every node/.style={inner sep=0pt},remember picture]
       % open the node and the varwidth so that user content goes inside it
       \node[inner sep=2mm, align=justify, text width=#5] (box)
       \bgroup%
@@ -313,11 +313,14 @@
 חֲנֻכָּה אֵלּוּ לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל.
 \end{simplebox}
 
+% TODO: check manually
+\noindent\strut\mekor[2.125em]{אסתר ג יג}%
+\vspace*{-2\baselineskip}\par
 \begin{simplebox}
 \instruction{בפורים:}
 
 \footnotesize
-בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, \pasuk[אסתר ג יג]{
+בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, {\mikra
 לְהַשְׁמִ֡יד לַהֲרֹ֣ג וּלְאַבֵּ֣ד אֶת־כׇּל־הַ֠יְּהוּדִ֠ים מִנַּ֨עַר וְעַד־זָקֵ֜ן טַ֤ף
 וְנָשִׁים֙ בְּי֣וֹם אֶחָ֔ד בִּשְׁלוֹשָׁ֥ה עָשָׂ֛ר לְחֹ֥דֶשׁ שְׁנֵים־עָשָׂ֖ר הוּא־חֹ֣דֶשׁ אֲדָ֑ר וּשְׁלָלָ֖ם לָבֽוֹז:}
 וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת־עֲצָתוֹ וְקִלְקַלְתָּ אֶת־מַחֲשַׁבְתּוֹ וַהֲשֵׁבֹתָ לוֹ גְּמוּלוֹ
