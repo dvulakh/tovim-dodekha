@@ -3,3 +3,6 @@
 \contentsline {subsection}{תהלים לפני זימון}{3}{}%
 \contentsline {subsection}{זימון}{4}{}%
 \contentsline {subsection}{ברכת המזון}{5}{}%
+\contentsline {subsection}{ברכות למי ששכח}{13}{}%
+\contentsline {subsection}{שבע ברכות}{14}{}%
+\contentsline {subsection}{הרחמן לברית מילה}{15}{}%
