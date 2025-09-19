@@ -2,3 +2,4 @@
 \contentsline {section}{ברכת המזון}{3}{}%
 \contentsline {subsection}{תהלים לפני זימון}{3}{}%
 \contentsline {subsection}{זימון}{4}{}%
+\contentsline {subsection}{ברכת המזון}{5}{}%

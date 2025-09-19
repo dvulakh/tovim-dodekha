@@ -220,7 +220,10 @@
 \clearpage
 \restoregeometry
 
-{\footnotesize
+{%
+\scriptsize%
+\setlength{\parskip}{1pt}%
+\setlength{\itemsep}{1pt}%
 \tableofcontents
 }
 \newpage
@@ -270,6 +273,7 @@
 \newpage
 
 \begin{samepage}
+\addcontentsline{toc}{subsection}{ברכת המזון}
 \subsection*{ברכת הזן}
 בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם, הַזָּן אֶת הָעוֹלָם כֻּלּוֹ בְּטוּבוֹ בְּחֵן בְּחֶֽסֶד וּבְרַחֲמִים,
 הוּא \pasuk[\ps קלו כה]{נֹתֵ֣ן לֶ֭חֶם לְכׇל־בָּשָׂ֑ר כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ:} וּבְטוּבוֹ
