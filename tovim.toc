@@ -10,3 +10,4 @@
 \contentsline {subsection}{ברכות למי ששכח}{13}{}%
 \contentsline {subsection}{שבע ברכות}{14}{}%
 \contentsline {subsection}{הרחמן לברית מילה}{15}{}%
+\contentsline {subsection}{ברכה מעין שלש}{16}{}%
