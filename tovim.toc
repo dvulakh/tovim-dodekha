@@ -1,6 +1,10 @@
 \selectlanguage *{hebrew}
 \contentsline {section}{ברכת המזון}{3}{}%
 \contentsline {subsection}{תהלים לפני זימון}{3}{}%
+\bgroup 
+\selectlanguage *{russian}
+\egroup 
+\selectlanguage *{hebrew}
 \contentsline {subsection}{זימון}{4}{}%
 \contentsline {subsection}{ברכת המזון}{5}{}%
 \contentsline {subsection}{ברכות למי ששכח}{13}{}%
