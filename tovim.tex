@@ -17,6 +17,7 @@
 \usepackage{makecell}
 \setlength{\columnsep}{1em}
 \usepackage[explicit]{titlesec}
+\usepackage{tocloft}
 
 \usepackage{marginnote}
 \usepackage{tikz}
@@ -40,7 +41,7 @@
 %\newfontfamily\mikra[Script=Hebrew,Scale=1.25]{Stam Ashkenaz CLM}
 \newfontfamily\rashi[Script=Hebrew,Scale=1]{Mekorot-Rashi}
 \newfontfamily\stam[Script=Hebrew,Scale=1.25]{Stam Ashkenaz CLM}
-%\newfontfamily\plain[Script=Hebrew,Scale=1.25]{David Libre Medium}
+%\newfontfamily\plain[Script=Hebrew,Scale=1]{David Libre Medium}
 \newfontfamily\plain[Script=Hebrew,Scale=1]{Mekorot-Rashi}
 
 \newcommand{\instruction}[1]{%
@@ -187,6 +188,11 @@
 \interlinepenalty=10000 % keep pars together
 \setlength{\parindent}{0pt}
 
+% suppress toc title
+\makeatletter
+\renewcommand{\@cftmaketoctitle}{}
+\makeatother
+
 \begin{document}
 
 % Title page
@@ -223,7 +229,10 @@
 \scriptsize%
 \setlength{\parskip}{1pt}%
 \setlength{\itemsep}{1pt}%
+\section*{תוכן עניינים}
+\begin{multicols}{2}
 \tableofcontents
+\end{multicols}
 }
 \newpage
 
@@ -679,5 +688,88 @@
   \makecell{\instruction{על פירות משבעת המינים:}\\פֵּרוֹתֶיהָ (\instruction{של חו״ל:} הַפֵּרוֹת)} \\
 \end{tabular}\par%
 }}
+
+\newpage
+
+\subsection{בורא נפשות}
+
+\section{סדר ליל השבת}
+
+\subsection{שיר השירים}
+\subsection{הדלקת נרות}
+\subsection{שלום עליכם}
+\subsection{ברכת הבנים}
+\subsection{אשת חיל}
+\subsection{קידוש לליל שבת}
+
+\section{סדר יום השבת}
+
+\subsection{חי ה׳}
+\subsection{קידוש רבא}
+
+\section{סדר מוצאי שבת}
+
+\subsection{הבדלה}
+
+\section{חגים ומועדים}
+
+\subsection{עירוב תבשילין}
+\subsection{הדלקת נרות של יו״ט}
+\subsection{קידוש לשלוש רגלים}
+\subsection{קידוש לראש השנה}
+\subsection{הדלקת נרות של חנוכה}
+
+\section{זמירות לליל שבת}
+
+\subsection{כל מקדש}
+\subsection{מנוחה ושמחה}
+\subsection{מה ידידות}
+\subsection{יום זה לישראל}
+\subsection{יה ריבון}
+\subsection{צמאה נפשי}
+\subsection{יודוך רעיוני}
+\subsection{על אהבתך}
+\subsection{יה אכסוף}
+\subsection{צור משלו}
+
+\section{זמירות ליום השבת}
+
+\subsection{ברוך אל עליון}
+\subsection{יום זה מכובד}
+\subsection{יום שבתון}
+\subsection{שימרו שבתותי}
+\subsection{כי אשמרה שבת}
+\subsection{דרור יקרא}
+
+\section{זמירות לסעודה שלישית}
+
+\subsection{מזמור לדוד}
+\subsection{ידיד נפש}
+
+\section{זמירות למוצאי שבת}
+
+\subsection{אליהו}
+\subsection{המבדיל}
+\subsection{אמר ה׳ ליעקוב}
+
+\section{שירי עם}
+
+\subsection{ירושלים של זהב}
+\subsection{בשנה הבאה}
+\subsection{על כל אילה}
+\subsection{שישו את ירושלים}
+\subsection{אני ואתה}
+\subsection{אלי אלי}
+\subsection{שירת העשבים}
+\subsection{ערב של שושנים}
+\subsection{הפנג'ן}
+\subsection{שלום על ישראל}
+\subsection{ערב בא}
+\subsection{מחר}
+\subsection{נולדתי לשלום}
+\subsection{שיר ישראלי}
+\subsection{אויפן פריפעטשיק}
+\subsection{שנירעלע־פּערעלע}
+\subsection{גוטער זכּרון}
 
 \end{document}
