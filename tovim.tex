@@ -199,8 +199,10 @@
 \begin{document}
 
 % Title page
+% TODO fix animal centering
 
-\newgeometry{left=0pt,right=0pt,bottom=0.25in,top=0.25in}
+\newgeometry{left=0pt,right=0pt,bottom=0.5in,top=0.25in}
+\thispagestyle{empty}
 
 {
 \centering
@@ -209,21 +211,21 @@
 \vspace{0.375in}
 \begin{floralbox}
 \fontsize{40}{45}\selectfont
-טוֹבִ֥ים\; דֹּדֶ֖יךָ \par מִיָּֽיִן
+טוֹבִ֥ים\; דֹּדֶ֖יךָ \par מִיָּֽיִן\par
 \end{floralbox}
-\vspace{0.375in}
-{\plain שמחת הנישואין של} \\
-\vspace{0.125in}
-{\Huge דוד אריה וולך} \\
-{\Huge וסימן־טוב רזיאל קליינר} \\
-\vspace{0.125in}
-{\plain ראש חודש טבת תשפ״ו} \\
-\vspace{0.25in}
+\vfill%
+{\plain{}שמחת הנישואין של}\\
+\vspace{0.125in}%
+{\Huge{}דוד אריה וולך}\\
+{\Huge{}וסימן־טוב רזיאל קליינר}\\
+\vspace{0.125in}%
+{\plain{}ראש חודש טבת תשפ״ו}\\
+\vfill%
 \mbox{%
 \pgfornament[height=0.33in,symmetry=v]{158}
 \pgfornament[height=0.3in]{196}
 \pgfornament[height=0.33in]{158}
-}\par
+}\par%
 }
 \clearpage
 \restoregeometry
