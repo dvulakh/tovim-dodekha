@@ -5,71 +5,71 @@
 \selectlanguage *{russian}
 \egroup 
 \selectlanguage *{hebrew}
-\contentsline {subsection}{זימון}{5}{}%
-\contentsline {subsection}{ברכת המזון}{6}{}%
-\contentsline {subsection}{ברכות למי ששכח}{14}{}%
-\contentsline {subsection}{שבע ברכות}{15}{}%
-\contentsline {subsection}{הרחמן לברית מילה}{16}{}%
-\contentsline {subsection}{ברכה מעין שלש}{17}{}%
-\contentsline {subsection}{בורא נפשות}{18}{}%
-\contentsline {section}{סדר ליל השבת}{18}{}%
-\contentsline {subsection}{שיר השירים}{18}{}%
-\contentsline {subsection}{הדלקת נרות}{18}{}%
-\contentsline {subsection}{שלום עליכם}{18}{}%
-\contentsline {subsection}{ברכת הבנים}{18}{}%
-\contentsline {subsection}{אשת חיל}{18}{}%
-\contentsline {subsection}{קידוש לליל שבת}{18}{}%
-\contentsline {section}{סדר יום השבת}{18}{}%
-\contentsline {subsection}{חי ה׳}{18}{}%
-\contentsline {subsection}{קידוש רבא}{18}{}%
-\contentsline {section}{סדר מוצאי שבת}{18}{}%
-\contentsline {subsection}{הבדלה}{18}{}%
-\contentsline {section}{חגים ומועדים}{18}{}%
-\contentsline {subsection}{עירוב תבשילין}{18}{}%
-\contentsline {subsection}{הדלקת נרות של יו״ט}{18}{}%
-\contentsline {subsection}{קידוש לשלוש רגלים}{18}{}%
-\contentsline {subsection}{קידוש לראש השנה}{18}{}%
-\contentsline {subsection}{הדלקת נרות של חנוכה}{18}{}%
-\contentsline {section}{זמירות לליל שבת}{18}{}%
-\contentsline {subsection}{כל מקדש}{18}{}%
-\contentsline {subsection}{מנוחה ושמחה}{18}{}%
-\contentsline {subsection}{מה ידידות}{18}{}%
-\contentsline {subsection}{יום זה לישראל}{18}{}%
-\contentsline {subsection}{יה ריבון}{18}{}%
-\contentsline {subsection}{צמאה נפשי}{18}{}%
-\contentsline {subsection}{יודוך רעיוני}{18}{}%
-\contentsline {subsection}{על אהבתך}{18}{}%
-\contentsline {subsection}{יה אכסוף}{18}{}%
-\contentsline {subsection}{צור משלו}{18}{}%
-\contentsline {section}{זמירות ליום השבת}{18}{}%
-\contentsline {subsection}{ברוך אל עליון}{18}{}%
-\contentsline {subsection}{יום זה מכובד}{18}{}%
-\contentsline {subsection}{יום שבתון}{18}{}%
-\contentsline {subsection}{שימרו שבתותי}{18}{}%
-\contentsline {subsection}{כי אשמרה שבת}{18}{}%
-\contentsline {subsection}{דרור יקרא}{18}{}%
-\contentsline {section}{זמירות לסעודה שלישית}{18}{}%
-\contentsline {subsection}{מזמור לדוד}{18}{}%
-\contentsline {subsection}{ידיד נפש}{18}{}%
-\contentsline {section}{זמירות למוצאי שבת}{18}{}%
-\contentsline {subsection}{אליהו}{18}{}%
-\contentsline {subsection}{המבדיל}{18}{}%
-\contentsline {subsection}{אמר ה׳ ליעקוב}{18}{}%
-\contentsline {section}{שירי עם}{18}{}%
-\contentsline {subsection}{ירושלים של זהב}{18}{}%
-\contentsline {subsection}{בשנה הבאה}{18}{}%
-\contentsline {subsection}{על כל אילה}{18}{}%
-\contentsline {subsection}{שישו את ירושלים}{18}{}%
-\contentsline {subsection}{אני ואתה}{18}{}%
-\contentsline {subsection}{אלי אלי}{18}{}%
-\contentsline {subsection}{שירת העשבים}{18}{}%
-\contentsline {subsection}{ערב של שושנים}{18}{}%
-\contentsline {subsection}{הפנג'ן}{18}{}%
-\contentsline {subsection}{שלום על ישראל}{18}{}%
-\contentsline {subsection}{ערב בא}{18}{}%
-\contentsline {subsection}{מחר}{18}{}%
-\contentsline {subsection}{נולדתי לשלום}{18}{}%
-\contentsline {subsection}{שיר ישראלי}{18}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{18}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{18}{}%
-\contentsline {subsection}{גוטער זכּרון}{18}{}%
+\contentsline {subsection}{זימון}{6}{}%
+\contentsline {subsection}{ברכת המזון}{7}{}%
+\contentsline {subsection}{ברכות למי ששכח}{15}{}%
+\contentsline {subsection}{שבע ברכות}{16}{}%
+\contentsline {subsection}{הרחמן לברית מילה}{17}{}%
+\contentsline {subsection}{ברכה מעין שלש}{18}{}%
+\contentsline {subsection}{בורא נפשות}{19}{}%
+\contentsline {section}{סדר ליל השבת}{19}{}%
+\contentsline {subsection}{שיר השירים}{19}{}%
+\contentsline {subsection}{הדלקת נרות}{19}{}%
+\contentsline {subsection}{שלום עליכם}{19}{}%
+\contentsline {subsection}{ברכת הבנים}{19}{}%
+\contentsline {subsection}{אשת חיל}{19}{}%
+\contentsline {subsection}{קידוש לליל שבת}{19}{}%
+\contentsline {section}{סדר יום השבת}{19}{}%
+\contentsline {subsection}{חי ה׳}{19}{}%
+\contentsline {subsection}{קידוש רבא}{19}{}%
+\contentsline {section}{סדר מוצאי שבת}{19}{}%
+\contentsline {subsection}{הבדלה}{19}{}%
+\contentsline {section}{חגים ומועדים}{19}{}%
+\contentsline {subsection}{עירוב תבשילין}{19}{}%
+\contentsline {subsection}{הדלקת נרות של יו״ט}{19}{}%
+\contentsline {subsection}{קידוש לשלוש רגלים}{19}{}%
+\contentsline {subsection}{קידוש לראש השנה}{19}{}%
+\contentsline {subsection}{הדלקת נרות של חנוכה}{19}{}%
+\contentsline {section}{זמירות לליל שבת}{19}{}%
+\contentsline {subsection}{כל מקדש}{19}{}%
+\contentsline {subsection}{מנוחה ושמחה}{19}{}%
+\contentsline {subsection}{מה ידידות}{19}{}%
+\contentsline {subsection}{יום זה לישראל}{19}{}%
+\contentsline {subsection}{יה ריבון}{19}{}%
+\contentsline {subsection}{צמאה נפשי}{19}{}%
+\contentsline {subsection}{יודוך רעיוני}{19}{}%
+\contentsline {subsection}{על אהבתך}{19}{}%
+\contentsline {subsection}{יה אכסוף}{19}{}%
+\contentsline {subsection}{צור משלו}{19}{}%
+\contentsline {section}{זמירות ליום השבת}{19}{}%
+\contentsline {subsection}{ברוך אל עליון}{19}{}%
+\contentsline {subsection}{יום זה מכובד}{19}{}%
+\contentsline {subsection}{יום שבתון}{19}{}%
+\contentsline {subsection}{שימרו שבתותי}{19}{}%
+\contentsline {subsection}{כי אשמרה שבת}{19}{}%
+\contentsline {subsection}{דרור יקרא}{19}{}%
+\contentsline {section}{זמירות לסעודה שלישית}{19}{}%
+\contentsline {subsection}{מזמור לדוד}{19}{}%
+\contentsline {subsection}{ידיד נפש}{19}{}%
+\contentsline {section}{זמירות למוצאי שבת}{19}{}%
+\contentsline {subsection}{אליהו}{19}{}%
+\contentsline {subsection}{המבדיל}{19}{}%
+\contentsline {subsection}{אמר ה׳ ליעקוב}{19}{}%
+\contentsline {section}{שירי עם}{19}{}%
+\contentsline {subsection}{ירושלים של זהב}{19}{}%
+\contentsline {subsection}{בשנה הבאה}{19}{}%
+\contentsline {subsection}{על כל אילה}{19}{}%
+\contentsline {subsection}{שישו את ירושלים}{19}{}%
+\contentsline {subsection}{אני ואתה}{19}{}%
+\contentsline {subsection}{אלי אלי}{19}{}%
+\contentsline {subsection}{שירת העשבים}{19}{}%
+\contentsline {subsection}{ערב של שושנים}{19}{}%
+\contentsline {subsection}{הפנג'ן}{19}{}%
+\contentsline {subsection}{שלום על ישראל}{19}{}%
+\contentsline {subsection}{ערב בא}{19}{}%
+\contentsline {subsection}{מחר}{19}{}%
+\contentsline {subsection}{נולדתי לשלום}{19}{}%
+\contentsline {subsection}{שיר ישראלי}{19}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{19}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{19}{}%
+\contentsline {subsection}{גוטער זכּרון}{19}{}%
