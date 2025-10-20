@@ -17,59 +17,59 @@
 \contentsline {subsection}{הדלקת נרות}{26}{}%
 \contentsline {subsection}{שלום עליכם}{26}{}%
 \contentsline {subsection}{ברכת הבנים}{27}{}%
-\contentsline {subsection}{אשת חיל}{27}{}%
-\contentsline {subsection}{קידוש לליל שבת}{27}{}%
-\contentsline {section}{סדר יום השבת}{27}{}%
-\contentsline {subsection}{חי ה׳}{27}{}%
-\contentsline {subsection}{קידוש רבא}{27}{}%
-\contentsline {section}{סדר מוצאי שבת}{27}{}%
-\contentsline {subsection}{הבדלה}{27}{}%
-\contentsline {section}{חגים ומועדים}{27}{}%
-\contentsline {subsection}{עירוב תבשילין}{27}{}%
-\contentsline {subsection}{הדלקת נרות של יו״ט}{27}{}%
-\contentsline {subsection}{קידוש לשלוש רגלים}{27}{}%
-\contentsline {subsection}{קידוש לראש השנה}{27}{}%
-\contentsline {subsection}{הדלקת נרות של חנוכה}{27}{}%
-\contentsline {section}{זמירות לליל שבת}{27}{}%
-\contentsline {subsection}{כל מקדש}{27}{}%
-\contentsline {subsection}{מנוחה ושמחה}{27}{}%
-\contentsline {subsection}{מה ידידות}{27}{}%
-\contentsline {subsection}{יום זה לישראל}{27}{}%
-\contentsline {subsection}{יה ריבון}{27}{}%
-\contentsline {subsection}{צמאה נפשי}{27}{}%
-\contentsline {subsection}{יודוך רעיוני}{27}{}%
-\contentsline {subsection}{על אהבתך}{27}{}%
-\contentsline {subsection}{יה אכסוף}{27}{}%
-\contentsline {subsection}{צור משלו}{27}{}%
-\contentsline {section}{זמירות ליום השבת}{27}{}%
-\contentsline {subsection}{ברוך אל עליון}{27}{}%
-\contentsline {subsection}{יום זה מכובד}{27}{}%
-\contentsline {subsection}{יום שבתון}{27}{}%
-\contentsline {subsection}{שימרו שבתותי}{27}{}%
-\contentsline {subsection}{כי אשמרה שבת}{27}{}%
-\contentsline {subsection}{דרור יקרא}{27}{}%
-\contentsline {section}{זמירות לסעודה שלישית}{27}{}%
-\contentsline {subsection}{מזמור לדוד}{27}{}%
-\contentsline {subsection}{ידיד נפש}{27}{}%
-\contentsline {section}{זמירות למוצאי שבת}{27}{}%
-\contentsline {subsection}{אליהו}{27}{}%
-\contentsline {subsection}{המבדיל}{27}{}%
-\contentsline {subsection}{אמר ה׳ ליעקוב}{27}{}%
-\contentsline {section}{שירי עם}{27}{}%
-\contentsline {subsection}{ירושלים של זהב}{27}{}%
-\contentsline {subsection}{בשנה הבאה}{27}{}%
-\contentsline {subsection}{על כל אילה}{27}{}%
-\contentsline {subsection}{שישו את ירושלים}{27}{}%
-\contentsline {subsection}{אני ואתה}{27}{}%
-\contentsline {subsection}{אלי אלי}{27}{}%
-\contentsline {subsection}{שירת העשבים}{27}{}%
-\contentsline {subsection}{ערב של שושנים}{27}{}%
-\contentsline {subsection}{הפנג'ן}{27}{}%
-\contentsline {subsection}{שלום על ישראל}{27}{}%
-\contentsline {subsection}{ערב בא}{27}{}%
-\contentsline {subsection}{מחר}{27}{}%
-\contentsline {subsection}{נולדתי לשלום}{27}{}%
-\contentsline {subsection}{שיר ישראלי}{27}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{27}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{27}{}%
-\contentsline {subsection}{גוטער זכּרון}{27}{}%
+\contentsline {subsection}{אשת חיל}{28}{}%
+\contentsline {subsection}{קידוש לליל שבת}{29}{}%
+\contentsline {section}{סדר יום השבת}{30}{}%
+\contentsline {subsection}{חי ה׳}{30}{}%
+\contentsline {subsection}{קידוש רבא}{30}{}%
+\contentsline {section}{סדר מוצאי שבת}{30}{}%
+\contentsline {subsection}{הבדלה}{30}{}%
+\contentsline {section}{חגים ומועדים}{30}{}%
+\contentsline {subsection}{עירוב תבשילין}{30}{}%
+\contentsline {subsection}{הדלקת נרות של יו״ט}{30}{}%
+\contentsline {subsection}{קידוש לשלוש רגלים}{30}{}%
+\contentsline {subsection}{קידוש לראש השנה}{30}{}%
+\contentsline {subsection}{הדלקת נרות של חנוכה}{30}{}%
+\contentsline {section}{זמירות לליל שבת}{30}{}%
+\contentsline {subsection}{כל מקדש}{30}{}%
+\contentsline {subsection}{מנוחה ושמחה}{30}{}%
+\contentsline {subsection}{מה ידידות}{30}{}%
+\contentsline {subsection}{יום זה לישראל}{30}{}%
+\contentsline {subsection}{יה ריבון}{30}{}%
+\contentsline {subsection}{צמאה נפשי}{30}{}%
+\contentsline {subsection}{יודוך רעיוני}{30}{}%
+\contentsline {subsection}{על אהבתך}{30}{}%
+\contentsline {subsection}{יה אכסוף}{30}{}%
+\contentsline {subsection}{צור משלו}{30}{}%
+\contentsline {section}{זמירות ליום השבת}{30}{}%
+\contentsline {subsection}{ברוך אל עליון}{30}{}%
+\contentsline {subsection}{יום זה מכובד}{30}{}%
+\contentsline {subsection}{יום שבתון}{30}{}%
+\contentsline {subsection}{שימרו שבתותי}{30}{}%
+\contentsline {subsection}{כי אשמרה שבת}{30}{}%
+\contentsline {subsection}{דרור יקרא}{30}{}%
+\contentsline {section}{זמירות לסעודה שלישית}{30}{}%
+\contentsline {subsection}{מזמור לדוד}{30}{}%
+\contentsline {subsection}{ידיד נפש}{30}{}%
+\contentsline {section}{זמירות למוצאי שבת}{30}{}%
+\contentsline {subsection}{אליהו}{30}{}%
+\contentsline {subsection}{המבדיל}{30}{}%
+\contentsline {subsection}{אמר ה׳ ליעקוב}{30}{}%
+\contentsline {section}{שירי עם}{30}{}%
+\contentsline {subsection}{ירושלים של זהב}{30}{}%
+\contentsline {subsection}{בשנה הבאה}{30}{}%
+\contentsline {subsection}{על כל אילה}{30}{}%
+\contentsline {subsection}{שישו את ירושלים}{30}{}%
+\contentsline {subsection}{אני ואתה}{30}{}%
+\contentsline {subsection}{אלי אלי}{30}{}%
+\contentsline {subsection}{שירת העשבים}{30}{}%
+\contentsline {subsection}{ערב של שושנים}{30}{}%
+\contentsline {subsection}{הפנג'ן}{30}{}%
+\contentsline {subsection}{שלום על ישראל}{30}{}%
+\contentsline {subsection}{ערב בא}{30}{}%
+\contentsline {subsection}{מחר}{30}{}%
+\contentsline {subsection}{נולדתי לשלום}{30}{}%
+\contentsline {subsection}{שיר ישראלי}{30}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{30}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{30}{}%
+\contentsline {subsection}{גוטער זכּרון}{30}{}%
