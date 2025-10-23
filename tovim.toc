@@ -94,46 +94,46 @@
 \contentsline {subsection}{קידוש לשלוש רגלים}{48}{}%
 \contentsline {subsection}{קידוש לראש השנה}{50}{}%
 \contentsline {subsection}{הדלקת נרות של חנוכה}{52}{}%
-\contentsline {section}{זמירות לליל שבת}{53}{}%
-\contentsline {subsection}{כל מקדש}{53}{}%
-\contentsline {subsection}{מנוחה ושמחה}{53}{}%
-\contentsline {subsection}{מה ידידות}{53}{}%
-\contentsline {subsection}{יום זה לישראל}{53}{}%
-\contentsline {subsection}{יה ריבון}{53}{}%
-\contentsline {subsection}{צמאה נפשי}{53}{}%
-\contentsline {subsection}{יודוך רעיוני}{53}{}%
-\contentsline {subsection}{על אהבתך}{53}{}%
-\contentsline {subsection}{יה אכסוף}{53}{}%
-\contentsline {subsection}{צור משלו}{53}{}%
-\contentsline {section}{זמירות ליום השבת}{53}{}%
-\contentsline {subsection}{ברוך אל עליון}{53}{}%
-\contentsline {subsection}{יום זה מכובד}{53}{}%
-\contentsline {subsection}{יום שבתון}{53}{}%
-\contentsline {subsection}{שימרו שבתותי}{53}{}%
-\contentsline {subsection}{כי אשמרה שבת}{53}{}%
-\contentsline {subsection}{דרור יקרא}{53}{}%
-\contentsline {section}{זמירות לסעודה שלישית}{53}{}%
-\contentsline {subsection}{מזמור לדוד}{53}{}%
-\contentsline {subsection}{ידיד נפש}{53}{}%
-\contentsline {section}{זמירות למוצאי שבת}{53}{}%
-\contentsline {subsection}{אליהו}{53}{}%
-\contentsline {subsection}{המבדיל}{53}{}%
-\contentsline {subsection}{אמר ה׳ ליעקוב}{53}{}%
-\contentsline {section}{שירי עם}{53}{}%
-\contentsline {subsection}{ירושלים של זהב}{53}{}%
-\contentsline {subsection}{בשנה הבאה}{53}{}%
-\contentsline {subsection}{על כל אילה}{53}{}%
-\contentsline {subsection}{שישו את ירושלים}{53}{}%
-\contentsline {subsection}{אני ואתה}{53}{}%
-\contentsline {subsection}{אלי אלי}{53}{}%
-\contentsline {subsection}{שירת העשבים}{53}{}%
-\contentsline {subsection}{ערב של שושנים}{53}{}%
-\contentsline {subsection}{הפנג'ן}{53}{}%
-\contentsline {subsection}{שלום על ישראל}{53}{}%
-\contentsline {subsection}{ערב בא}{53}{}%
-\contentsline {subsection}{מחר}{53}{}%
-\contentsline {subsection}{נולדתי לשלום}{53}{}%
-\contentsline {subsection}{שיר ישראלי}{53}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{53}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{53}{}%
-\contentsline {subsection}{גוטער זכּרון}{53}{}%
+\contentsline {section}{זמירות לליל שבת}{54}{}%
+\contentsline {subsection}{כל מקדש}{54}{}%
+\contentsline {subsection}{מנוחה ושמחה}{54}{}%
+\contentsline {subsection}{מה ידידות}{54}{}%
+\contentsline {subsection}{יום זה לישראל}{54}{}%
+\contentsline {subsection}{יה ריבון}{54}{}%
+\contentsline {subsection}{צמאה נפשי}{54}{}%
+\contentsline {subsection}{יודוך רעיוני}{54}{}%
+\contentsline {subsection}{על אהבתך}{54}{}%
+\contentsline {subsection}{יה אכסוף}{54}{}%
+\contentsline {subsection}{צור משלו}{54}{}%
+\contentsline {section}{זמירות ליום השבת}{54}{}%
+\contentsline {subsection}{ברוך אל עליון}{54}{}%
+\contentsline {subsection}{יום זה מכובד}{54}{}%
+\contentsline {subsection}{יום שבתון}{54}{}%
+\contentsline {subsection}{שימרו שבתותי}{54}{}%
+\contentsline {subsection}{כי אשמרה שבת}{54}{}%
+\contentsline {subsection}{דרור יקרא}{54}{}%
+\contentsline {section}{זמירות לסעודה שלישית}{54}{}%
+\contentsline {subsection}{מזמור לדוד}{54}{}%
+\contentsline {subsection}{ידיד נפש}{54}{}%
+\contentsline {section}{זמירות למוצאי שבת}{54}{}%
+\contentsline {subsection}{אליהו}{54}{}%
+\contentsline {subsection}{המבדיל}{54}{}%
+\contentsline {subsection}{אמר ה׳ ליעקוב}{54}{}%
+\contentsline {section}{שירי עם}{54}{}%
+\contentsline {subsection}{ירושלים של זהב}{54}{}%
+\contentsline {subsection}{בשנה הבאה}{54}{}%
+\contentsline {subsection}{על כל אילה}{54}{}%
+\contentsline {subsection}{שישו את ירושלים}{54}{}%
+\contentsline {subsection}{אני ואתה}{54}{}%
+\contentsline {subsection}{אלי אלי}{54}{}%
+\contentsline {subsection}{שירת העשבים}{54}{}%
+\contentsline {subsection}{ערב של שושנים}{54}{}%
+\contentsline {subsection}{הפנג'ן}{54}{}%
+\contentsline {subsection}{שלום על ישראל}{54}{}%
+\contentsline {subsection}{ערב בא}{54}{}%
+\contentsline {subsection}{מחר}{54}{}%
+\contentsline {subsection}{נולדתי לשלום}{54}{}%
+\contentsline {subsection}{שיר ישראלי}{54}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{54}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{54}{}%
+\contentsline {subsection}{גוטער זכּרון}{54}{}%
