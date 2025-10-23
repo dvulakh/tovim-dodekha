@@ -7,7 +7,6 @@
 \selectlanguage *{hebrew}
 \contentsline {subsection}{זימון}{6}{}%
 \contentsline {subsection}{ברכת המזון}{7}{}%
-\contentsline {subsection}{ברכות למי ששכח}{15}{}%
 \contentsline {subsection}{שבע ברכות}{16}{}%
 \contentsline {subsection}{הרחמן לברית מילה}{17}{}%
 \contentsline {subsection}{ברכה מעין שלש}{18}{}%
@@ -31,46 +30,46 @@
 \contentsline {subsection}{קידוש לשלוש רגלים}{36}{}%
 \contentsline {subsection}{קידוש לראש השנה}{38}{}%
 \contentsline {subsection}{הדלקת נרות של חנוכה}{40}{}%
-\contentsline {section}{זמירות לליל שבת}{40}{}%
-\contentsline {subsection}{כל מקדש}{40}{}%
-\contentsline {subsection}{מנוחה ושמחה}{40}{}%
-\contentsline {subsection}{מה ידידות}{40}{}%
-\contentsline {subsection}{יום זה לישראל}{40}{}%
-\contentsline {subsection}{יה ריבון}{40}{}%
-\contentsline {subsection}{צמאה נפשי}{40}{}%
-\contentsline {subsection}{יודוך רעיוני}{40}{}%
-\contentsline {subsection}{על אהבתך}{40}{}%
-\contentsline {subsection}{יה אכסוף}{40}{}%
-\contentsline {subsection}{צור משלו}{40}{}%
-\contentsline {section}{זמירות ליום השבת}{40}{}%
-\contentsline {subsection}{ברוך אל עליון}{40}{}%
-\contentsline {subsection}{יום זה מכובד}{40}{}%
-\contentsline {subsection}{יום שבתון}{40}{}%
-\contentsline {subsection}{שימרו שבתותי}{40}{}%
-\contentsline {subsection}{כי אשמרה שבת}{40}{}%
-\contentsline {subsection}{דרור יקרא}{40}{}%
-\contentsline {section}{זמירות לסעודה שלישית}{40}{}%
-\contentsline {subsection}{מזמור לדוד}{40}{}%
-\contentsline {subsection}{ידיד נפש}{40}{}%
-\contentsline {section}{זמירות למוצאי שבת}{40}{}%
-\contentsline {subsection}{אליהו}{40}{}%
-\contentsline {subsection}{המבדיל}{40}{}%
-\contentsline {subsection}{אמר ה׳ ליעקוב}{40}{}%
-\contentsline {section}{שירי עם}{40}{}%
-\contentsline {subsection}{ירושלים של זהב}{40}{}%
-\contentsline {subsection}{בשנה הבאה}{40}{}%
-\contentsline {subsection}{על כל אילה}{40}{}%
-\contentsline {subsection}{שישו את ירושלים}{40}{}%
-\contentsline {subsection}{אני ואתה}{40}{}%
-\contentsline {subsection}{אלי אלי}{40}{}%
-\contentsline {subsection}{שירת העשבים}{40}{}%
-\contentsline {subsection}{ערב של שושנים}{40}{}%
-\contentsline {subsection}{הפנג'ן}{40}{}%
-\contentsline {subsection}{שלום על ישראל}{40}{}%
-\contentsline {subsection}{ערב בא}{40}{}%
-\contentsline {subsection}{מחר}{40}{}%
-\contentsline {subsection}{נולדתי לשלום}{40}{}%
-\contentsline {subsection}{שיר ישראלי}{40}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{40}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{40}{}%
-\contentsline {subsection}{גוטער זכּרון}{40}{}%
+\contentsline {section}{זמירות לליל שבת}{41}{}%
+\contentsline {subsection}{כל מקדש}{41}{}%
+\contentsline {subsection}{מנוחה ושמחה}{41}{}%
+\contentsline {subsection}{מה ידידות}{41}{}%
+\contentsline {subsection}{יום זה לישראל}{41}{}%
+\contentsline {subsection}{יה ריבון}{41}{}%
+\contentsline {subsection}{צמאה נפשי}{41}{}%
+\contentsline {subsection}{יודוך רעיוני}{41}{}%
+\contentsline {subsection}{על אהבתך}{41}{}%
+\contentsline {subsection}{יה אכסוף}{41}{}%
+\contentsline {subsection}{צור משלו}{41}{}%
+\contentsline {section}{זמירות ליום השבת}{41}{}%
+\contentsline {subsection}{ברוך אל עליון}{41}{}%
+\contentsline {subsection}{יום זה מכובד}{41}{}%
+\contentsline {subsection}{יום שבתון}{41}{}%
+\contentsline {subsection}{שימרו שבתותי}{41}{}%
+\contentsline {subsection}{כי אשמרה שבת}{41}{}%
+\contentsline {subsection}{דרור יקרא}{41}{}%
+\contentsline {section}{זמירות לסעודה שלישית}{41}{}%
+\contentsline {subsection}{מזמור לדוד}{41}{}%
+\contentsline {subsection}{ידיד נפש}{41}{}%
+\contentsline {section}{זמירות למוצאי שבת}{41}{}%
+\contentsline {subsection}{אליהו}{41}{}%
+\contentsline {subsection}{המבדיל}{41}{}%
+\contentsline {subsection}{אמר ה׳ ליעקוב}{41}{}%
+\contentsline {section}{שירי עם}{41}{}%
+\contentsline {subsection}{ירושלים של זהב}{41}{}%
+\contentsline {subsection}{בשנה הבאה}{41}{}%
+\contentsline {subsection}{על כל אילה}{41}{}%
+\contentsline {subsection}{שישו את ירושלים}{41}{}%
+\contentsline {subsection}{אני ואתה}{41}{}%
+\contentsline {subsection}{אלי אלי}{41}{}%
+\contentsline {subsection}{שירת העשבים}{41}{}%
+\contentsline {subsection}{ערב של שושנים}{41}{}%
+\contentsline {subsection}{הפנג'ן}{41}{}%
+\contentsline {subsection}{שלום על ישראל}{41}{}%
+\contentsline {subsection}{ערב בא}{41}{}%
+\contentsline {subsection}{מחר}{41}{}%
+\contentsline {subsection}{נולדתי לשלום}{41}{}%
+\contentsline {subsection}{שיר ישראלי}{41}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{41}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{41}{}%
+\contentsline {subsection}{גוטער זכּרון}{41}{}%
