@@ -30,6 +30,7 @@
 \usepackage{varwidth}
 
 \usepackage{polyglossia}
+\usepackage{csquotes}
 \setmainlanguage{hebrew}
 \setotherlanguage{english}
 \setotherlanguage{russian}
@@ -54,6 +55,14 @@
 \noindent{\plain\tiny{#1}}%
 }
 
+\newcommand{\instructionen}[1]{%
+\noindent{\englishprose\tiny\textbf{\textit{#1}}}%
+}
+
+\newcommand{\instructionru}[1]{%
+\noindent{\russianprose\tiny\textbf{\textit{#1}}}%
+}
+
 % formats
 
 \newcommand{\wholeline}[2][]{%
@@ -75,6 +84,13 @@
 % TODO: pick a better highlighting method
 \newcommand{\highlight}[1]{\textcolor{red}{#1}}
 
+% https://tex.stackexchange.com/questions/262584/is-there-a-general-method-for-obtaining-small-caps-with-custom-fonts
+\def\fakesc{\bgroup\obeyspaces\helpersc}
+\def\helpersc#1{\helperscii #1\relax\relax\egroup}
+\def\helperscii#1{%
+\ifx\relax#1\else \ifcat#1\@sptoken{} \expandafter\expandafter\expandafter\helperscii\else
+\ifnum`#1=\uccode`#1 {\scriptsize #1}\else {\tiny \uppercase{#1}}\fi \expandafter\expandafter\expandafter\helperscii\expandafter\fi\fi}
+
 % abbrevs
 
 \newcommand{\gen}[0]{בר׳\xspace}
@@ -83,8 +99,12 @@
 \newcommand{\isi}[0]{יש׳\xspace}
 \newcommand{\chri}[0]{דה״א\xspace}
 
-\newfontfamily\englishfont{TeX Gyre Pagella}
+\newcommand{\ykvk}[0]{\fakesc{Lord}\xspace}
+
+\newfontfamily\englishfont[Scale=1.2]{Alice}
+\newfontfamily\englishprose[Scale=1.25]{CMU Serif}
 \newfontfamily\russianfont[Scale=1.25]{Alice}
+\newfontfamily\russianprose[Scale=1.25]{CMU Serif}
 %\newfontfamily\russianfont[Scale=1.25]{Noto Serif}
 %\newfontfamily\russianfont[Scale=1.25]{Cactus Classical Serif}
 
@@ -256,8 +276,26 @@
 \clearpage
 \restoregeometry
 
+% This page deliberately blank
+\newpage
+\phantom{.}
+\thispagestyle{empty}
+\newpage
+
+\thispagestyle{empty}
+{\centering\prose%
+% TODO: thanks, attributions
+בס״ד\\
+\begin{english}
+\copyright\par
+\end{english}
+}
+
+\newpage
+
 {%
 \scriptsize%
+\setcounter{page}{1}%
 \setlength{\parskip}{1pt}%
 \setlength{\itemsep}{1pt}%
 \section*{תוכן עניינים}
@@ -302,7 +340,8 @@
 
 \instruction{ביום שאומרים בו תחנון:}
 
-עַל\mekor{\ps קלז} נַהֲרוֹת בָּבֶל שָׁם יָשַֽׁבְנוּ גַּם בָּכִֽינוּ בְּזׇכְרֵֽנוּ אֶת צִיּוֹן׃ עַל
+% TODO check mekor placement
+עַל\mekor[-1em]{\ps קלז} נַהֲרוֹת בָּבֶל שָׁם יָשַֽׁבְנוּ גַּם בָּכִֽינוּ בְּזׇכְרֵֽנוּ אֶת צִיּוֹן׃ עַל
 עֲרָבִים בְּתוֹכָהּ תָּלִֽינוּ כִּנֹּרוֹתֵֽינוּ׃ כִּי שָׁם שְׁאֵלֽוּנוּ שׁוֹבֵֽינוּ דִּבְרֵי שִׁיר וְתוֹלָלֵֽינוּ שִׂמְחָה
 שִׁירוּ לָֽנוּ מִשִּׁיר צִיּוֹן׃ אֵיךְ נָשִׁיר אֶת שִׁיר יְהוָה עַל אַדְמַת נֵכָר׃ אִם אֶשְׁכָּחֵךְ
 יְרוּשָׁלָ‍ִם תִּשְׁכַּח יְמִינִי׃ תִּדְבַּק לְשׁוֹנִי לְחִכִּי אִם לֹא אֶזְכְּרֵֽכִי אִם לֹא אַעֲלֶה אֶת
@@ -310,6 +349,51 @@
 הָאֹמְרִים עָֽרוּ עָֽרוּ עַד הַיְסוֹד בָּהּ׃ בַּת בָּבֶל הַשְּׁדוּדָה אַשְׁרֵי שֶׁיְשַׁלֶּם לָךְ אֶת גְּמוּלֵךְ שֶׁגָּמַלְתְּ
 לָֽנוּ׃ אַשְׁרֵי שֶׁיֹּאחֵז וְנִפֵּץ אֶת עֹלָלַֽיִךְ אֶל הַסָּֽלַע׃
 \end{samepage}
+
+\newpage
+
+{\scriptsize%
+\begin{english}
+\instructionen{On a day that taḥanun is recited:}
+
+By the rivers of Babylon, there we sat down, yea, we wept, when we
+remembered Zion. We hanged our harps upon the willows in the midst
+thereof. For there they that carried us away captive required of us a
+song; and they that wasted us required of us mirth, saying, Sing us
+one of the songs of Zion. How shall we sing the \ykvk’s song in a
+strange land? If I forget thee, O Jerusalem, let my right hand forget
+her cunning. If I do not remember thee, let my tongue cleave to the
+roof of my mouth; if I prefer not Jerusalem above my chief joy.
+Remember, O \ykvk, the children of Edom in the day of Jerusalem; who
+said, Rase it, rase it, even to the foundation thereof. O daughter of
+Babylon, who art to be destroyed; happy shall he be, that rewardeth
+thee as thou hast served us. Happy shall he be, that taketh and
+dasheth thy little ones against the stones.
+\end{english}
+
+\begin{russian}
+\selectfont%
+\lineskiplimit=-\maxdimen%
+%\baselineskip=0.9\baselineskip%
+%\setstretch{0.8}%
+%\fontsize{11pt}{12pt}\selectfont%
+\instructionru{В день, в который читают таханун:}
+
+При реках Вавилона, там сидели мы и плакали, когда вспоминали о Сионе;
+на вербах, посреди его, повесили мы наши арфы. Там пленившие нас
+требовали от нас слов песней, и притеснители наши веселья: ‘пропойте
+нам из песней Сионских’. Как нам петь песнь Господню на земле чужой?
+Если я забуду тебя, Иерусалим, \textemdash{} забудь меня десница моя; прилипни
+язык мой к гортани моей, если не буду помнить тебя, если не поставлю
+Иерусалима во главе веселия моего. Припомни, Господи, сынам Едомовым
+день Иерусалима, когда они говорили: ‘разрушайте, разрушайте до
+основания его’. Дочь Вавилона, опустошительница! блажен, кто воздаст
+тебе за то, что ты сделала нам! Блажен, кто возьмет и разобьет
+младенцев твоих о камень!\par
+\end{russian}
+}
+
+\newpage
 
 \begin{samepage}
 \instruction{ביום שאין אומרים בו תחנון:}
@@ -339,6 +423,37 @@
 \end{center}
 \vfill
 \end{samepage}
+
+\newpage
+
+{\scriptsize%
+\begin{english}
+\instructionen{On a day that taḥanun is not recited:}
+
+A song of ascents. When the \ykvk turned again the captivity of Zion,
+we were like them that dream. Then was our mouth filled with laughter,
+and our tongue with singing: then said they among the heathen, The
+\ykvk hath done great things for them. The \ykvk hath done great things
+for us; whereof we are glad. Turn again our captivity, O \ykvk, as the
+streams in the south. They that sow in tears shall reap in joy. He
+that goeth forth and weepeth, bearing precious seed, shall doubtless
+come again with rejoicing, bringing his sheaves with him.
+\end{english} % TODO add thilath hashem?
+
+\begin{russian}
+\selectfont%
+\lineskiplimit=-\maxdimen%
+\instructionru{В день, в который не читают таханун:}
+
+Песнь восхождения. Когда возвращал Господь плен Сиона, мы были как бы
+видящие во сне: тогда уста наши были полны веселья, и язык
+наш\textemdash{}пения; тогда между народами говорили: ‘великое
+сотворил Господь над ними!’ Великое сотворил Господь над нами: мы
+радовались. Возврати, Господи, пленников наших, как потоки на полдень.
+Сеявшие со слезами будут пожинать с радостью. С плачем несущий семена
+возвратится с радостью, неся снопы свои.\par
+\end{russian}
+}
 
 \newpage
 
@@ -379,7 +494,7 @@
 \makecell[r]{%
 \begin{minipage}{\linewidth}
 \raggedright
-\instruction{פותחים ברבותי ויהי שם כרגיל, וא״כ המזמן ממשיך:}
+\instruction{פותחים ברבותי ויהי שם כרגיל, ואח״כ המזמן ממשיך:}
 \\[0.5em]
 %\begin{tabular}{rr}
 %\instruction{מזמן:}&
@@ -408,7 +523,7 @@
 &וְשֶׁאָכַלְנוּ מִשֶּׁלּוֹ.
 \\[0.5em]
 \instruction{מסבים}&בָּרוּךְ אֱלֹהֵינוּ\\
-\instruction{וא״כ מזמן:}&שֶׁהַשִּׂמְחָה בִמְעוֹנוֹ\\
+\instruction{ואח״כ מזמן:}&שֶׁהַשִּׂמְחָה בִמְעוֹנוֹ\\
 &שֶׁאָכַלְנוּ מִשֶּׁלּוֹ\\
 &וּבְטוּבוֹ חָיִינוּ.
 \end{tabular}
@@ -420,6 +535,11 @@ bar
 
 \end{samepage}
 
+\newpage
+
+\begin{english}
+Translation placeholder
+\end{english}
 \newpage
 
 \begin{samepage}
@@ -442,6 +562,13 @@ bar
 וּבְכׇל שָׁעָה.
 \end{samepage}
 
+\newpage
+
+\begin{english}
+Translation placeholder
+\end{english}
+\newpage
+
 \begin{samepage}
 
 \begin{floralbox}
@@ -451,6 +578,13 @@ bar
 וְעַל־הַמִּלְחָמוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה\par}
 \end{floralbox}
 \end{samepage}
+
+\newpage
+
+\begin{english}
+Translation placeholder
+\end{english}
+\newpage
 
 \begin{samepage}
 \begin{simplebox}
@@ -482,6 +616,13 @@ bar
 \end{simplebox}
 \end{samepage}
 
+\newpage
+
+\begin{english}
+Translation placeholder
+\end{english}
+\newpage
+
 \begin{samepage}
 וְעַל הַכֹּל יְיָ אֱלֹהֵֽינוּ אֲנַֽחְנוּ מוֹדִים לָךְ וּמְבָרְכִים אוֹתָךְ, יִתְבָּרַךְ שִׁמְךָ בְּפִי כׇּל חַי
 תָּמִיד לְעוֹלָם וָעֶד, כַּכָּתוּב:
@@ -499,6 +640,13 @@ bar
 הַלְוָאָתָם, כִּי אִם לְיָדְךָ הַמְּלֵאָה הַפְּתוּחָה הַקְּדוֹשָׁה וְהָרְחָבָה, שֶׁלֹּא נֵבוֹשׁ וְלֹא נִכָּלֵם לְעוֹלָם
 וָעֶד.
 \end{samepage}
+
+\newpage
+
+\begin{english}
+Translation placeholder
+\end{english}
+\newpage
 
 \begin{samepage}
 \begin{simplebox}
@@ -535,6 +683,13 @@ bar
 חַנּוּן וְרַחוּם אָתָּה.
 \end{simplebox}
 \end{samepage}
+
+\newpage
+
+\begin{english}
+Translation placeholder
+\end{english}
+\newpage
 
 \begin{samepage}
 {\centering
@@ -576,6 +731,11 @@ bar
 
 \newpage
 
+\begin{english}
+Translation placeholder
+\end{english}
+\newpage
+
 הָרַחֲמָן הוּא יִשְׁלַח לָֽנוּ אֶת אֵלִיָּֽהוּ הַנָּבִיא זָכוּר לַטּוֹב, וִיבַשֶּׂר לָֽנוּ בְּשׂוֹרוֹת טוֹבוֹת
 יְשׁוּעוֹת וְנֶחָמוֹת.
 
@@ -613,6 +773,13 @@ bar
 
 הָרַחֲמָן הוּא יְבָרֵךְ אֶת מְדִינַת יִשְׂרָאֵל.
 
+\newpage
+
+\begin{english}
+Translation placeholder
+\end{english}
+\newpage
+
 הָרַחֲמָן הוּא יְבָרֵךְ אֶת חַיָּלֵי צְבָא הַהֲגַנָּה לְיִשְׂרָאֵל וְאַנְשֵׁי כֹּחוֹת הַבִּטָּחוֹן, הָעוֹמְדִים עַל
 מִשְׁמַר אַרְצֵֽנוּ וְעָרֵי אֱלֹהֵֽינוּ, מִגְּבוּל הַלְּבָנוֹן וְעַד מִדְבַּר מִצְרַֽיִם, וּמִן הַיָּם הַגָּדוֹל עַד
 לְבוֹא הָעֲרָבָה, בַּיַּבָּשָׁה בָּאֲוִיר וּבַיָּם.
@@ -628,7 +795,7 @@ bar
 
 \instruction{בראש השנה:}\\הַרָחֲמָן הוּא יְחַדֵּשׁ עָלֵינוּ אֶת הַשָּׁנָה הַזֹּאת לְטוֹבָה וְלִבְרָכָה. 
 
-\instruction{בסוכות:}\\הַרָחֲמָן הוּא יָקִים לָנוּ אֶת סֻכַּת דָּוִד הַנּוֹפֶלֶת.
+\instruction{בסוכות:}\\הַרָחֲמָן הוּא יָקִים לָנוּ אֶת סֻכַּת דָּוִד הַנּוֹפָלֶת.
 
 \vspace{0.5\baselineskip}%
 \adjustbox{valign=c}{\pgfornament[height=2.5\baselineskip]{104}}%
@@ -663,8 +830,18 @@ bar
 \end{center}
 \newpage
 
+\begin{english}
+Translation placeholder
+\end{english}
+\newpage
+
 \subsection*{ברכות למי ששכח}
 % TODO
+\newpage
+
+\begin{english}
+Translation placeholder
+\end{english}
 \newpage
 
 \subsection{שבע ברכות}
@@ -687,7 +864,7 @@ bar
 
 בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר בָּרָא שָׂשׂוֹן וְשִׂמְחָה חָתָן וְכַלָּה, גִּילָה רִנָּה
 דִּיצָה וְחֶדְוָה, אַהֲבָה וְאַחְוָה וְשָׁלוֹם וְרֵעוּת. מְהֵרָה יְיָ אֱלֹהֵינוּ יִשָּׁמַע
-בְּ\pasuk[ירמיהו ז לד]{עָרֵ֣י יְהוּדָ֗ה וּמֵֽחֻצוֹת֙ יְר֣וּשָׁלִַ֔ם ק֤וֹל שָׂשׂוֹן֙ וְק֣וֹל שִׂמְחָ֔ה ק֥וֹל חָתָ֖ן וְק֣וֹל כַּלָּ֑ה}, קוֹל מִצְהֲלוֹת
+בְּ\pasuk[ירמיהו ז לד]{עָרֵ֣י יְהוּדָ֗ה וּ{\hebrewfont בְ}חֻצוֹת֙ יְר֣וּשָׁלִַ֔ם ק֤וֹל שָׂשׂוֹן֙ וְק֣וֹל שִׂמְחָ֔ה ק֥וֹל חָתָ֖ן וְק֣וֹל כַּלָּ֑ה}, קוֹל מִצְהֲלוֹת
 חֲתָנִים מֵחֻפָּתָם, וּנְעָרִים מִמִּשְׁתֵּה נְגִינָתָם. בָּרוּךְ אַתָּה יְיָ, מְשַׂמֵּחַ חָתָן עִם
 הַכַּלָּה.\par\vfill
 
@@ -695,8 +872,15 @@ bar
 }
 
 \newpage
+
+\begin{english}
+Translation placeholder
+\end{english}
+\newpage
+
 \subsection{הרחמן לברית מילה}
 % TODO psukim
+% TODO move to body?
 
 הָרַחֲמָן הוּא יְבָרֵךְ אֲבִי הַיֶּלֶד וְאִמּוֹ, וְיִזְכּוּ לְגַדְּלוֹ וּלְחַנְּכוֹ וּלְחַכְּמוֹ, מִיּוֹם הַשְּׁמִינִי
 וָהָלְאָה יֵרָצֶה דָמוֹ, וִיהִי יְיָ אֱלֹהָיו עִמּוֹ.
