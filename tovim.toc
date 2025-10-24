@@ -100,44 +100,44 @@
 \contentsline {subsection}{הדלקת נרות של חנוכה}{53}{}%
 \contentsline {section}{זמירות לליל שבת}{55}{}%
 \contentsline {subsection}{כל מקדש}{55}{}%
-\contentsline {subsection}{מנוחה ושמחה}{55}{}%
-\contentsline {subsection}{מה ידידות}{55}{}%
-\contentsline {subsection}{יום זה לישראל}{55}{}%
-\contentsline {subsection}{יה ריבון}{55}{}%
-\contentsline {subsection}{צמאה נפשי}{55}{}%
-\contentsline {subsection}{יודוך רעיוני}{55}{}%
-\contentsline {subsection}{על אהבתך}{55}{}%
-\contentsline {subsection}{יה אכסוף}{55}{}%
-\contentsline {subsection}{צור משלו}{55}{}%
-\contentsline {section}{זמירות ליום השבת}{55}{}%
-\contentsline {subsection}{ברוך אל עליון}{55}{}%
-\contentsline {subsection}{יום זה מכובד}{55}{}%
-\contentsline {subsection}{יום שבתון}{55}{}%
-\contentsline {subsection}{שימרו שבתותי}{55}{}%
-\contentsline {subsection}{כי אשמרה שבת}{55}{}%
-\contentsline {subsection}{דרור יקרא}{55}{}%
-\contentsline {section}{זמירות לסעודה שלישית}{55}{}%
-\contentsline {subsection}{מזמור לדוד}{55}{}%
-\contentsline {subsection}{ידיד נפש}{55}{}%
-\contentsline {section}{זמירות למוצאי שבת}{55}{}%
-\contentsline {subsection}{אליהו}{55}{}%
-\contentsline {subsection}{המבדיל}{55}{}%
-\contentsline {subsection}{אמר ה׳ ליעקוב}{55}{}%
-\contentsline {section}{שירי עם}{55}{}%
-\contentsline {subsection}{ירושלים של זהב}{55}{}%
-\contentsline {subsection}{בשנה הבאה}{55}{}%
-\contentsline {subsection}{על כל אילה}{55}{}%
-\contentsline {subsection}{שישו את ירושלים}{55}{}%
-\contentsline {subsection}{אני ואתה}{55}{}%
-\contentsline {subsection}{אלי אלי}{55}{}%
-\contentsline {subsection}{שירת העשבים}{55}{}%
-\contentsline {subsection}{ערב של שושנים}{55}{}%
-\contentsline {subsection}{הפנג'ן}{55}{}%
-\contentsline {subsection}{שלום על ישראל}{55}{}%
-\contentsline {subsection}{ערב בא}{55}{}%
-\contentsline {subsection}{מחר}{55}{}%
-\contentsline {subsection}{נולדתי לשלום}{55}{}%
-\contentsline {subsection}{שיר ישראלי}{55}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{55}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{55}{}%
-\contentsline {subsection}{גוטער זכּרון}{55}{}%
+\contentsline {subsection}{מנוחה ושמחה}{56}{}%
+\contentsline {subsection}{מה ידידות}{57}{}%
+\contentsline {subsection}{יום זה לישראל}{59}{}%
+\contentsline {subsection}{יה ריבון}{59}{}%
+\contentsline {subsection}{צמאה נפשי}{59}{}%
+\contentsline {subsection}{יודוך רעיוני}{59}{}%
+\contentsline {subsection}{על אהבתך}{59}{}%
+\contentsline {subsection}{יה אכסוף}{59}{}%
+\contentsline {subsection}{צור משלו}{59}{}%
+\contentsline {section}{זמירות ליום השבת}{59}{}%
+\contentsline {subsection}{ברוך אל עליון}{59}{}%
+\contentsline {subsection}{יום זה מכובד}{59}{}%
+\contentsline {subsection}{יום שבתון}{59}{}%
+\contentsline {subsection}{שימרו שבתותי}{59}{}%
+\contentsline {subsection}{כי אשמרה שבת}{59}{}%
+\contentsline {subsection}{דרור יקרא}{59}{}%
+\contentsline {section}{זמירות לסעודה שלישית}{59}{}%
+\contentsline {subsection}{מזמור לדוד}{59}{}%
+\contentsline {subsection}{ידיד נפש}{59}{}%
+\contentsline {section}{זמירות למוצאי שבת}{59}{}%
+\contentsline {subsection}{אליהו}{59}{}%
+\contentsline {subsection}{המבדיל}{59}{}%
+\contentsline {subsection}{אמר ה׳ ליעקוב}{59}{}%
+\contentsline {section}{שירי עם}{59}{}%
+\contentsline {subsection}{ירושלים של זהב}{59}{}%
+\contentsline {subsection}{בשנה הבאה}{59}{}%
+\contentsline {subsection}{על כל אילה}{59}{}%
+\contentsline {subsection}{שישו את ירושלים}{59}{}%
+\contentsline {subsection}{אני ואתה}{59}{}%
+\contentsline {subsection}{אלי אלי}{59}{}%
+\contentsline {subsection}{שירת העשבים}{59}{}%
+\contentsline {subsection}{ערב של שושנים}{59}{}%
+\contentsline {subsection}{הפנג'ן}{59}{}%
+\contentsline {subsection}{שלום על ישראל}{59}{}%
+\contentsline {subsection}{ערב בא}{59}{}%
+\contentsline {subsection}{מחר}{59}{}%
+\contentsline {subsection}{נולדתי לשלום}{59}{}%
+\contentsline {subsection}{שיר ישראלי}{59}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{59}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{59}{}%
+\contentsline {subsection}{גוטער זכּרון}{59}{}%
