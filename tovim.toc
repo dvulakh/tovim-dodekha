@@ -103,7 +103,7 @@
 \contentsline {subsection}{מנוחה ושמחה}{57}{}%
 \contentsline {subsection}{מה ידידות}{58}{}%
 \contentsline {subsection}{יום זה לישראל}{60}{}%
-\contentsline {subsection}{יה ריבון}{62}{}%
+\contentsline {subsection}{יה ריבון}{61}{}%
 \contentsline {subsection}{צמאה נפשי}{62}{}%
 \contentsline {subsection}{יודוך רעיוני}{62}{}%
 \contentsline {subsection}{על אהבתך}{62}{}%
