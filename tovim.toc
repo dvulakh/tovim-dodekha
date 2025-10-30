@@ -111,33 +111,33 @@
 \contentsline {subsection}{צור משלו}{66}{}%
 \contentsline {section}{זמירות ליום השבת}{67}{}%
 \contentsline {subsection}{ברוך אל עליון}{67}{}%
-\contentsline {subsection}{יום זה מכובד}{67}{}%
-\contentsline {subsection}{יום שבתון}{67}{}%
-\contentsline {subsection}{שימרו שבתותי}{67}{}%
-\contentsline {subsection}{כי אשמרה שבת}{67}{}%
-\contentsline {subsection}{דרור יקרא}{67}{}%
-\contentsline {section}{זמירות לסעודה שלישית}{67}{}%
-\contentsline {subsection}{מזמור לדוד}{67}{}%
-\contentsline {subsection}{ידיד נפש}{67}{}%
-\contentsline {section}{זמירות למוצאי שבת}{67}{}%
-\contentsline {subsection}{אליהו}{67}{}%
-\contentsline {subsection}{המבדיל}{67}{}%
-\contentsline {subsection}{אמר ה׳ ליעקוב}{67}{}%
-\contentsline {section}{שירי עם}{67}{}%
-\contentsline {subsection}{ירושלים של זהב}{67}{}%
-\contentsline {subsection}{בשנה הבאה}{67}{}%
-\contentsline {subsection}{על כל אילה}{67}{}%
-\contentsline {subsection}{שישו את ירושלים}{67}{}%
-\contentsline {subsection}{אני ואתה}{67}{}%
-\contentsline {subsection}{אלי אלי}{67}{}%
-\contentsline {subsection}{שירת העשבים}{67}{}%
-\contentsline {subsection}{ערב של שושנים}{67}{}%
-\contentsline {subsection}{הפנג'ן}{67}{}%
-\contentsline {subsection}{שלום על ישראל}{67}{}%
-\contentsline {subsection}{ערב בא}{67}{}%
-\contentsline {subsection}{מחר}{67}{}%
-\contentsline {subsection}{נולדתי לשלום}{67}{}%
-\contentsline {subsection}{שיר ישראלי}{67}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{67}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{67}{}%
-\contentsline {subsection}{גוטער זכּרון}{67}{}%
+\contentsline {subsection}{יום זה מכובד}{69}{}%
+\contentsline {subsection}{יום שבתון}{70}{}%
+\contentsline {subsection}{שימרו שבתותי}{71}{}%
+\contentsline {subsection}{כי אשמרה שבת}{73}{}%
+\contentsline {subsection}{דרור יקרא}{73}{}%
+\contentsline {section}{זמירות לסעודה שלישית}{73}{}%
+\contentsline {subsection}{מזמור לדוד}{73}{}%
+\contentsline {subsection}{ידיד נפש}{73}{}%
+\contentsline {section}{זמירות למוצאי שבת}{73}{}%
+\contentsline {subsection}{אליהו}{73}{}%
+\contentsline {subsection}{המבדיל}{73}{}%
+\contentsline {subsection}{אמר ה׳ ליעקוב}{73}{}%
+\contentsline {section}{שירי עם}{73}{}%
+\contentsline {subsection}{ירושלים של זהב}{73}{}%
+\contentsline {subsection}{בשנה הבאה}{73}{}%
+\contentsline {subsection}{על כל אילה}{73}{}%
+\contentsline {subsection}{שישו את ירושלים}{73}{}%
+\contentsline {subsection}{אני ואתה}{73}{}%
+\contentsline {subsection}{אלי אלי}{73}{}%
+\contentsline {subsection}{שירת העשבים}{73}{}%
+\contentsline {subsection}{ערב של שושנים}{73}{}%
+\contentsline {subsection}{הפנג'ן}{73}{}%
+\contentsline {subsection}{שלום על ישראל}{73}{}%
+\contentsline {subsection}{ערב בא}{73}{}%
+\contentsline {subsection}{מחר}{73}{}%
+\contentsline {subsection}{נולדתי לשלום}{73}{}%
+\contentsline {subsection}{שיר ישראלי}{73}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{73}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{73}{}%
+\contentsline {subsection}{גוטער זכּרון}{73}{}%
