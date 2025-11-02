@@ -118,26 +118,26 @@
 \contentsline {subsection}{דרור יקרא}{73}{}%
 \contentsline {section}{זמירות לסעודה שלישית}{74}{}%
 \contentsline {subsection}{מזמור לדוד}{74}{}%
-\contentsline {subsection}{ידיד נפש}{75}{}%
-\contentsline {section}{זמירות למוצאי שבת}{75}{}%
-\contentsline {subsection}{אליהו}{75}{}%
-\contentsline {subsection}{המבדיל}{75}{}%
-\contentsline {subsection}{אמר ה׳ ליעקוב}{75}{}%
-\contentsline {section}{שירי עם}{75}{}%
-\contentsline {subsection}{ירושלים של זהב}{75}{}%
-\contentsline {subsection}{בשנה הבאה}{75}{}%
-\contentsline {subsection}{על כל אילה}{75}{}%
-\contentsline {subsection}{שישו את ירושלים}{75}{}%
-\contentsline {subsection}{אני ואתה}{75}{}%
-\contentsline {subsection}{אלי אלי}{75}{}%
-\contentsline {subsection}{שירת העשבים}{75}{}%
-\contentsline {subsection}{ערב של שושנים}{75}{}%
-\contentsline {subsection}{הפנג'ן}{75}{}%
-\contentsline {subsection}{שלום על ישראל}{75}{}%
-\contentsline {subsection}{ערב בא}{75}{}%
-\contentsline {subsection}{מחר}{75}{}%
-\contentsline {subsection}{נולדתי לשלום}{75}{}%
-\contentsline {subsection}{שיר ישראלי}{75}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{75}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{75}{}%
-\contentsline {subsection}{גוטער זכּרון}{75}{}%
+\contentsline {subsection}{ידיד נפש}{74}{}%
+\contentsline {section}{זמירות למוצאי שבת}{74}{}%
+\contentsline {subsection}{אליהו הנביא}{74}{}%
+\contentsline {subsection}{המבדיל}{76}{}%
+\contentsline {subsection}{אמר ה׳ ליעקוב}{78}{}%
+\contentsline {section}{שירי עם}{79}{}%
+\contentsline {subsection}{ירושלים של זהב}{79}{}%
+\contentsline {subsection}{בשנה הבאה}{79}{}%
+\contentsline {subsection}{על כל אילה}{79}{}%
+\contentsline {subsection}{שישו את ירושלים}{79}{}%
+\contentsline {subsection}{אני ואתה}{79}{}%
+\contentsline {subsection}{אלי אלי}{79}{}%
+\contentsline {subsection}{שירת העשבים}{79}{}%
+\contentsline {subsection}{ערב של שושנים}{79}{}%
+\contentsline {subsection}{הפנג'ן}{79}{}%
+\contentsline {subsection}{שלום על ישראל}{79}{}%
+\contentsline {subsection}{ערב בא}{79}{}%
+\contentsline {subsection}{מחר}{79}{}%
+\contentsline {subsection}{נולדתי לשלום}{79}{}%
+\contentsline {subsection}{שיר ישראלי}{79}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{79}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{79}{}%
+\contentsline {subsection}{גוטער זכּרון}{79}{}%
