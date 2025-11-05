@@ -141,22 +141,22 @@
 \contentsline {subsection}{ידיד נפש}{74}{}%
 \contentsline {section}{זמירות למוצאי שבת}{75}{}%
 \contentsline {subsection}{אליהו הנביא}{75}{}%
-\contentsline {subsection}{המבדיל}{76}{}%
-\contentsline {subsection}{אמר ה׳ ליעקוב}{79}{}%
-\contentsline {section}{שירי עם}{80}{}%
-\contentsline {subsection}{ירושלים של זהב}{80}{}%
-\contentsline {subsection}{בשנה הבאה}{80}{}%
-\contentsline {subsection}{על כל אילה}{80}{}%
+\contentsline {subsection}{המבדיל}{77}{}%
+\contentsline {subsection}{אמר ה׳ ליעקוב}{78}{}%
+\contentsline {section}{שירי עם}{79}{}%
+\contentsline {subsection}{ירושלים של זהב}{79}{}%
 \contentsline {subsection}{שישו את ירושלים}{80}{}%
-\contentsline {subsection}{אני ואתה}{80}{}%
-\contentsline {subsection}{אלי אלי}{80}{}%
-\contentsline {subsection}{שירת העשבים}{80}{}%
-\contentsline {subsection}{ערב של שושנים}{80}{}%
-\contentsline {subsection}{הפנג'ן}{80}{}%
-\contentsline {subsection}{שלום על ישראל}{80}{}%
-\contentsline {subsection}{ערב בא}{80}{}%
-\contentsline {subsection}{מחר}{80}{}%
-\contentsline {subsection}{נולדתי לשלום}{80}{}%
-\contentsline {subsection}{שיר ישראלי}{80}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{80}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{80}{}%
+\contentsline {subsection}{בשנה הבאה}{81}{}%
+\contentsline {subsection}{על כל אלה}{81}{}%
+\contentsline {subsection}{אני ואתה}{82}{}%
+\contentsline {subsection}{אלי אלי}{83}{}%
+\contentsline {subsection}{שירת העשבים}{83}{}%
+\contentsline {subsection}{ערב של שושנים}{83}{}%
+\contentsline {subsection}{הפנג'ן}{83}{}%
+\contentsline {subsection}{שלום על ישראל}{83}{}%
+\contentsline {subsection}{ערב בא}{83}{}%
+\contentsline {subsection}{מחר}{83}{}%
+\contentsline {subsection}{נולדתי לשלום}{83}{}%
+\contentsline {subsection}{שיר ישראלי}{83}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{83}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{83}{}%
