@@ -30,13 +30,17 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{hebrew}
+\bgroup 
+\selectlanguage *{russian}
+\egroup 
+\selectlanguage *{hebrew}
 \contentsline {subsection}{ברכת המזון}{9}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{hebrew}
 \bgroup 
-\selectlanguage *{english}
+\selectlanguage *{russian}
 \egroup 
 \selectlanguage *{hebrew}
 \bgroup 
@@ -44,7 +48,23 @@
 \egroup 
 \selectlanguage *{hebrew}
 \bgroup 
+\selectlanguage *{russian}
+\egroup 
+\selectlanguage *{hebrew}
+\bgroup 
 \selectlanguage *{english}
+\egroup 
+\selectlanguage *{hebrew}
+\bgroup 
+\selectlanguage *{russian}
+\egroup 
+\selectlanguage *{hebrew}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{hebrew}
+\bgroup 
+\selectlanguage *{russian}
 \egroup 
 \selectlanguage *{hebrew}
 \bgroup 
@@ -140,4 +160,3 @@
 \contentsline {subsection}{שיר ישראלי}{79}{}%
 \contentsline {subsection}{אויפן פריפעטשיק}{79}{}%
 \contentsline {subsection}{שנירעלע־פּערעלע}{79}{}%
-\contentsline {subsection}{גוטער זכּרון}{79}{}%
