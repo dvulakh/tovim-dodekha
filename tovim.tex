@@ -52,7 +52,8 @@
 \newfontfamily\plain[Script=Hebrew,Scale=1]{Mekorot-Rashi}
 
 \newcommand{\instruction}[1]{%
-\noindent{\plain\tiny{#1}}%
+\ifhmode\else\noindent\fi%
+{\plain\tiny{#1}}%
 }
 
 \newcommand{\instructionen}[1]{%
@@ -190,6 +191,9 @@
 % no numbers in toc
 \setcounter{secnumdepth}{0}
 
+% for debug
+\setlength{\fboxsep}{0pt}
+
 % sections
 
 % format sections
@@ -199,8 +203,10 @@
   {}
   {0pt}
   {%
+    {\ }%
     \adjustbox{valign=c}{\pgfornament[height=0.7em]{16}}%
-    #1 %
+    #1%
+    {\ }%
     \adjustbox{valign=c}{\pgfornament[height=0.7em,symmetry=v]{16}}%
   }
 
@@ -214,9 +220,14 @@
   {}
   {0pt}
   {%
-    \adjustbox{valign=c}{\pgfornament[height=0.7em]{14}}%
-    #1 %
-    \adjustbox{valign=c}{\pgfornament[height=0.7em,symmetry=v]{14}}%
+    %\makebox[\textwidth][c]{%
+    % fbox to debug
+    {\ }%
+    {\adjustbox{valign=c}{\pgfornament[height=0.7em]{14}}}%
+    {#1}%
+    {\ }%
+    {\adjustbox{valign=c}{\pgfornament[height=0.7em,symmetry=v]{14}}}%
+    %}
   }
 
 \titlespacing*{\subsection}
@@ -229,17 +240,23 @@
 
 % page decorations
 
+% the extra space corrects for a pgfornament bug
 \fancyfoot[CO]{%
 \scriptsize%
+{\ }%
 \adjustbox{valign=c}{\pgfornament[height=1.25em,symmetry=v]{158}}%
-\makebox[1.5em][c]{\thepage} %
+{\makebox[1.5em][c]{\thepage}}%
+{\ }%
 \adjustbox{valign=c}{\pgfornament[height=1.25em]{158}}%
 }
 
+% the extra hspace corrects for a pgfornament bug
 \fancyfoot[CE]{%
 \scriptsize%
+{\hspace{0.33em}}%
 \adjustbox{valign=c}{\pgfornament[height=1.75em,symmetry=c]{194}}%
-\makebox[1em][c]{\thepage} %
+{\makebox[1em][c]{\thepage}}%
+{\hspace{0.33em}}%
 \adjustbox{valign=c}{\pgfornament[height=1.75em,symmetry=h]{194}}%
 }
 
@@ -2930,12 +2947,25 @@ Translation placeholder
 }
 
 \vfill%
+\subsection{אני ואתה}
+% TODO check spacing
+\vspace{-\baselineskip}%
+{\centering\instruction{אריק איינשטיין}\par}
+\vspace{0.5\baselineskip}%
+אֲנִי וְאַתָּה נְשַׁנֶּה אֶת הָעוֹלָם,\\
+אֲנִי וְאַתָּה אָז יָבוֹאוּ כְּבָר כֻּלָּם,\\
+אָמְרוּ אֶת זֶה קֹדֶם לְפָנַי,\\
+לֹא מְשַׁנֶּה \textemdash{} אֲנִי וְאַתָּה נְשַׁנֶּה אֶת הָעוֹלָם.
+
+\newpage
+
 \subsection{על כל אלה}
 % TODO check spacing
 \vspace{-\baselineskip}%
 {\centering\instruction{נעמי שמר}\par}
 {%
 %\vspace{0.5\baselineskip}%
+{%
 \setlength{\columnseprule}{0.4pt}%
 \setlength{\columnsep}{2.8em}%
 \lineskiplimit=-\maxdimen%
@@ -2979,7 +3009,8 @@ Translation placeholder
 וְעַל אֲהוּבֵי נַפְשִׁי,\\
 עַל הַשֶּׁקֶט, עַל הַבֶּכִי\\
 וְעַל זֶה הַשִּׁיר.
-\end{multicols}
+\end{multicols}%
+}
 
 {\centering\large%
 עַל כָּל אֵלֶּה, עַל כָּל אֵלֶּה\\
@@ -2988,26 +3019,123 @@ Translation placeholder
 עַל הַמַּר וְהַמָּתוֹק.\par
 }
 \vfill%
-\subsection{אני ואתה}
-% TODO check spacing
-\vspace{-\baselineskip}%
-{\centering\instruction{אריק איינשטיין}\par}
-\vspace{0.5\baselineskip}%
-אֲנִי וְאַתָּה נְשַׁנֶּה אֶת הָעוֹלָם,\\
-אֲנִי וְאַתָּה אָז יָבוֹאוּ כְּבָר כֻּלָּם,\\
-אָמְרוּ אֶת זֶה קֹדֶם לְפָנַי,\\
-לֹא מְשַׁנֶּה \textemdash{} אֲנִי וְאַתָּה נְשַׁנֶּה אֶת הָעוֹלָם.
 
 \newpage
 
 \subsection{אלי אלי}
+% TODO check spacing
+\vspace{-\baselineskip}%
+{\centering\instruction{חנה סנש}\par}
+
+אֵלִי, אֵלִי\\
+שֶׁלֹּא יִגָּמֵר לְעוֹלָם\\
+הַחוֹל וְהַיָּם,\\
+רִשְׁרוּשׁ שֶׁל הַמַּיִם,\\
+בְּרַק הַשָּׁמַיִם,\\
+תְּפִלַּת הָאָדָם.
+
+\newpage
 \subsection{שירת העשבים}
+% TODO check spacing
+\vspace{-\baselineskip}%
+{\centering\instruction{נעמי שמר, מיוסד על אמרות מוהר״ן}\par}
+
+{\normalsize\centering%
+%\setlength{\tabcolsep}{0pt}%
+\begin{tabularx}{\textwidth}{@{}>{\raggedleft\arraybackslash}X
+                             >{\raggedleft\arraybackslash}p{0.4\textwidth}
+                             >{\raggedright\arraybackslash}X@{}}
+דַּע לְךָ &
+שֶׁכָּל רוֹעֶה וְרוֹעֶה & \\
+& יֵשׁ לוֹ נִגּוּן מְיוּחָד &
+מִשֶׁלּוֹ\\
+דַּע לְךָ &
+שֶׁכָּל עֵשֶׂב וְעֵשֶׂב & \\
+& יֵשׁ לוֹ שִׁירָה מְיוּחֶדֶת &
+מִשֶׁלּוֹ\\
+& וּמִשִׁירַת הָעֲשָׂבִים & \\
+& נַעֲשֶׂה נִגּוּן &
+שֶׁל רוֹעֶה \\
+& & \\
+כַּמָּה יָפֶה &
+כַּמָּה יָפֶה וְנָאֶה & \\
+& כְּשֶׁשׁוֹמְעִים הַשִּׁירָה &
+שֶׁלָּהֶם \\
+טוֹב מְאֹד &
+לְהִתְפַּלֵּל בֵּינֵיהֶם & \\
+& וּבְשִׂמְחָה לַעֲבֹד &
+אֶת ה' \\
+& וּמִשִׁירַת הָעֲשָׂבִים & \\
+& מִתְמַלֵּא הַלֵּב &
+וּמִשְׁתּוֹקֵק \\
+& & \\
+וּכְשֶׁהַלֵּב &
+מִן הַשִּׁירָה מִתְמַלֵּא & \\
+& וּמִשְׁתּוֹקֵק אֶל אֶרֶץ &
+יִשְׂרָאֵל \\
+אוֹר גָּדוֹל &
+אֲזַי נִמְשָׁךְ וְהוֹלֵךְ & \\
+& מִקְּדוּשָׁתָהּ שֶׁל הָאָרֶץ &
+עָלָיו \\
+& וּמִשִׁירַת הָעֲשָׂבִים & \\
+& נַעֲשֶׂה נִגּוּן &
+שֶׁל הַלֵּב \\
+\end{tabularx}%
+}
+
 \subsection{ערב של שושנים}
+% TODO check spacing
+\vspace{-\baselineskip}%
+{\centering\instruction{בני אמדורסקי וישראל גוריון}\par}
+% TODO check niqqud (nakdan'ed)
+
+עֶרֶב שֶׁל שׁוֹשַׁנִּים\\
+נֵצֵא נָא אֶל הַבֻּסְתָּן\\
+מֹר בַּשָּׁמַיִם וּלְבוֹנָה\\
+לְרַגְלְךָ מִפְתָּן.
+
+לַיְלָה יוֹרֵד לְאַט\\
+וְרוּחַ שׁוֹשָׁן נוֹשָׁבָה\\
+הָבָה אֶלְחַשׁ לְךָ שִׁיר בַּלָּאט\\
+זֶמֶר שֶׁל אַהֲבָה.
+
+שַׁחַר הוֹמֶה יוֹנָה\\
+רֹאשְׁךָ מָלֵא טְלָלִים\\
+פִּיךָ אֶל הַבֹּקֶר, שׁוֹשַׁנָּה.\\
+אֶקְטְפֶנּוּ לִי...
+
 \subsection{הפנג'ן}
 \subsection{שלום על ישראל}
 \subsection{ערב בא}
 \subsection{מחר}
 \subsection{נולדתי לשלום}
+% TODO check spacing
+\vspace{-\baselineskip}%
+{\centering\instruction{עוזי חיטמן}\par}
+% TODO fix niqqud
+
+אֲנִי נוֹלַדְתִּי אֶל הַמַּנְגִּינוֹת\\
+וְאֶל הַשִּׁירִים שֶׁל כָּל הַמְּדִינוֹת\\
+נוֹלַדְתִּי לַלָּשׁוֹן וְגַם לַמָּקוֹם\\
+לַמְּעַט לְהָמוֹן שֶׁיּוֹשִׁיט יָד לַשָּׁלוֹם.
+
+{\large%
+אֲנִי נוֹלַדְתִּי לַשָּׁלוֹם שֶׁרַק יַגִּיעַ\\
+אֲנִי נוֹלַדְתִּי לַשָּׁלוֹם שֶׁרַק יְבוֹא\\
+אֲנִי נוֹלַדְתִּי לַשָּׁלוֹם שֶׁרַק יוֹפִיעַ\\
+אֲנִי רוֹצֶה אֲנִי רוֹצֶה לִהְיוֹת כְּבָר בּוֹ.
+}
+
+אֲנִי נוֹלַדְתִּי אֶל הַחֲלוֹם\\
+וּבוֹ אֲנִי רוֹאֶה שֶׁיְּבוֹא הַשָּׁלוֹם\\
+נוֹלַדְתִּי לָרָצוֹן וְלָאֱמוּנָה\\
+שֶׁהִנֵּה הוּא יָבוֹא אַחֲרֵי שְׁלוֹשִׁים שָׁנָה.\hfill{\scriptsize אֲנִי נוֹלַדְתִּי לַשָּׁלוֹם}
+
+נוֹלַדְתִּי לָאֻמָּה וְלָהּ שָׁנִים אַלְפַּיִם\\
+שֶׁמּוֹרָה לָהּ אֲדָמָה וְלָהּ חֶלְקַת שָׁמַיִם\\
+וְהִיא רוֹאָה צוֹפָה הִנֵּה עוֹלֶה הַיּוֹם\\
+וְהַשָּׁעָה יָפָה זוֹהִי שְׁעַת שָׁלוֹם.\hfill{\scriptsize אֲנִי נוֹלַדְתִּי לַשָּׁלוֹם}
+
 \subsection{שיר ישראלי}
 \subsection{אויפן פריפעטשיק}
 \subsection{שנירעלע־פּערעלע}

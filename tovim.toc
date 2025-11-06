@@ -147,16 +147,16 @@
 \contentsline {subsection}{ירושלים של זהב}{79}{}%
 \contentsline {subsection}{שישו את ירושלים}{80}{}%
 \contentsline {subsection}{בשנה הבאה}{81}{}%
-\contentsline {subsection}{על כל אלה}{81}{}%
-\contentsline {subsection}{אני ואתה}{82}{}%
+\contentsline {subsection}{אני ואתה}{81}{}%
+\contentsline {subsection}{על כל אלה}{82}{}%
 \contentsline {subsection}{אלי אלי}{83}{}%
-\contentsline {subsection}{שירת העשבים}{83}{}%
-\contentsline {subsection}{ערב של שושנים}{83}{}%
-\contentsline {subsection}{הפנג'ן}{83}{}%
-\contentsline {subsection}{שלום על ישראל}{83}{}%
-\contentsline {subsection}{ערב בא}{83}{}%
-\contentsline {subsection}{מחר}{83}{}%
-\contentsline {subsection}{נולדתי לשלום}{83}{}%
-\contentsline {subsection}{שיר ישראלי}{83}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{83}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{83}{}%
+\contentsline {subsection}{שירת העשבים}{84}{}%
+\contentsline {subsection}{ערב של שושנים}{85}{}%
+\contentsline {subsection}{הפנג'ן}{85}{}%
+\contentsline {subsection}{שלום על ישראל}{85}{}%
+\contentsline {subsection}{ערב בא}{85}{}%
+\contentsline {subsection}{מחר}{85}{}%
+\contentsline {subsection}{נולדתי לשלום}{85}{}%
+\contentsline {subsection}{שיר ישראלי}{86}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{86}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{86}{}%
