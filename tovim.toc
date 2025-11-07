@@ -150,15 +150,19 @@
 \contentsline {subsection}{אני ואתה}{81}{}%
 \contentsline {subsection}{על כל אלה}{82}{}%
 \contentsline {subsection}{רב הלילה}{83}{}%
-\contentsline {subsection}{עוד לא אהבתי די}{84}{}%
-\contentsline {subsection}{נולדתי לשלום}{85}{}%
-\contentsline {subsection}{אלי אלי}{86}{}%
-\contentsline {subsection}{ערב של שושנים}{86}{}%
-\contentsline {subsection}{שירת העשבים}{87}{}%
-\contentsline {subsection}{הפינג'אן}{88}{}%
-\contentsline {subsection}{שלום על ישראל}{89}{}%
-\contentsline {subsection}{ערב בא}{89}{}%
-\contentsline {subsection}{מחר}{90}{}%
-\contentsline {subsection}{שיר ישראלי}{91}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{92}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{92}{}%
+\contentsline {subsection}{נולדתי לשלום}{84}{}%
+\bgroup 
+\selectlanguage *{russian}
+\egroup 
+\selectlanguage *{hebrew}
+\contentsline {subsection}{עוד לא אהבתי די}{86}{}%
+\contentsline {subsection}{אלי אלי}{87}{}%
+\contentsline {subsection}{ערב של שושנים}{87}{}%
+\contentsline {subsection}{שירת העשבים}{88}{}%
+\contentsline {subsection}{הפינג'אן}{89}{}%
+\contentsline {subsection}{שלום על ישראל}{90}{}%
+\contentsline {subsection}{ערב בא}{90}{}%
+\contentsline {subsection}{מחר}{91}{}%
+\contentsline {subsection}{שיר ישראלי}{92}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{93}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{93}{}%
