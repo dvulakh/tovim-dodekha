@@ -149,14 +149,16 @@
 \contentsline {subsection}{בשנה הבאה}{81}{}%
 \contentsline {subsection}{אני ואתה}{81}{}%
 \contentsline {subsection}{על כל אלה}{82}{}%
-\contentsline {subsection}{אלי אלי}{83}{}%
-\contentsline {subsection}{שירת העשבים}{84}{}%
-\contentsline {subsection}{ערב של שושנים}{85}{}%
-\contentsline {subsection}{הפנג'ן}{85}{}%
-\contentsline {subsection}{שלום על ישראל}{85}{}%
-\contentsline {subsection}{ערב בא}{85}{}%
-\contentsline {subsection}{מחר}{85}{}%
+\contentsline {subsection}{רב הלילה}{83}{}%
+\contentsline {subsection}{עוד לא אהבתי די}{84}{}%
 \contentsline {subsection}{נולדתי לשלום}{85}{}%
-\contentsline {subsection}{שיר ישראלי}{86}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{86}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{86}{}%
+\contentsline {subsection}{אלי אלי}{86}{}%
+\contentsline {subsection}{ערב של שושנים}{86}{}%
+\contentsline {subsection}{שירת העשבים}{87}{}%
+\contentsline {subsection}{הפינג'אן}{88}{}%
+\contentsline {subsection}{שלום על ישראל}{89}{}%
+\contentsline {subsection}{ערב בא}{89}{}%
+\contentsline {subsection}{מחר}{90}{}%
+\contentsline {subsection}{שיר ישראלי}{91}{}%
+\contentsline {subsection}{אויפן פריפעטשיק}{92}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{92}{}%
