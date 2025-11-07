@@ -164,5 +164,9 @@
 \contentsline {subsection}{ערב בא}{90}{}%
 \contentsline {subsection}{מחר}{91}{}%
 \contentsline {subsection}{שיר ישראלי}{92}{}%
-\contentsline {subsection}{אויפן פריפעטשיק}{93}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{93}{}%
+\bgroup 
+\selectlanguage *{russian}
+\egroup 
+\selectlanguage *{hebrew}
+\contentsline {subsection}{אויפן פריפעטשיק}{94}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{95}{}%
