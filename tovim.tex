@@ -260,6 +260,24 @@
 \adjustbox{valign=c}{\pgfornament[height=1.75em,symmetry=h]{194}}%
 }
 
+\fancyhead[CE]{%
+\tiny%
+\rashi%
+שמחת הנישואין של
+דוד אריה
+וסימן־טוב רזיאל\hfill
+ראש חודש טבת תשפ״ו
+}
+
+
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\fancyhead[CO]{%
+\tiny%
+\rashi%
+\leftmark\hfill
+בענטשער טובים דדיך מיין
+}
+
 \tolerance=2000
 \emergencystretch=1.5em
 \setlength{\parskip}{0.5em}
@@ -329,7 +347,9 @@
 \setcounter{page}{1}%
 \setlength{\parskip}{1pt}%
 \setlength{\itemsep}{1pt}%
+\sectionmark{תוכן עניינים}%
 \section*{תוכן עניינים}
+\lineskiplimit=-\maxdimen%
 \begin{multicols}{2}
 \tableofcontents
 \end{multicols}
