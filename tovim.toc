@@ -72,101 +72,112 @@
 \egroup 
 \selectlanguage *{hebrew}
 \bgroup 
-\selectlanguage *{english}
+\selectlanguage *{russian}
 \egroup 
 \selectlanguage *{hebrew}
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{hebrew}
-\bgroup 
-\selectlanguage *{english}
-\egroup 
-\selectlanguage *{hebrew}
-\bgroup 
-\selectlanguage *{english}
-\egroup 
-\selectlanguage *{hebrew}
-\contentsline {subsection}{שבע ברכות}{27}{}%
-\bgroup 
-\selectlanguage *{english}
-\egroup 
-\selectlanguage *{hebrew}
-\contentsline {subsection}{הרחמן לברית מילה}{29}{}%
-\contentsline {subsection}{ברכה מעין שלש}{30}{}%
-\contentsline {subsection}{בורא נפשות}{31}{}%
-\contentsline {section}{סדר ליל השבת}{32}{}%
-\contentsline {subsection}{שיר השירים}{32}{}%
-\contentsline {subsection}{הדלקת נרות}{38}{}%
-\contentsline {subsection}{שלום עליכם}{38}{}%
-\contentsline {subsection}{ברכת הבנים}{39}{}%
-\contentsline {subsection}{אשת חיל}{40}{}%
-\contentsline {subsection}{קידוש לליל שבת}{41}{}%
-\contentsline {section}{סדר יום השבת}{42}{}%
-\contentsline {subsection}{חי ה׳}{42}{}%
-\contentsline {subsection}{קידוש רבא}{43}{}%
-\contentsline {section}{סדר מוצאי שבת}{45}{}%
-\contentsline {subsection}{גאָט פון אברהם}{45}{}%
-\contentsline {subsection}{הבדלה}{45}{}%
-\contentsline {section}{חגים ומועדים}{47}{}%
-\contentsline {subsection}{עירוב תבשילין}{47}{}%
-\contentsline {subsection}{הדלקת נרות של יו״ט}{47}{}%
 \bgroup 
 \selectlanguage *{russian}
 \egroup 
 \selectlanguage *{hebrew}
-\contentsline {subsection}{קידוש לשלוש רגלים}{49}{}%
-\contentsline {subsection}{קידוש לראש השנה}{51}{}%
-\contentsline {subsection}{הדלקת נרות של חנוכה}{53}{}%
-\contentsline {section}{זמירות לליל שבת}{56}{}%
-\contentsline {subsection}{כל מקדש}{56}{}%
-\contentsline {subsection}{מנוחה ושמחה}{57}{}%
-\contentsline {subsection}{מה ידידות}{58}{}%
-\contentsline {subsection}{יום זה לישראל}{60}{}%
-\contentsline {subsection}{יה ריבון}{61}{}%
-\contentsline {subsection}{צמאה נפשי}{62}{}%
-\contentsline {subsection}{יודוך רעיוני}{63}{}%
-\contentsline {subsection}{על אהבתך}{63}{}%
-\contentsline {subsection}{יה אכסוף}{65}{}%
-\contentsline {subsection}{צור משלו}{66}{}%
-\contentsline {section}{זמירות ליום השבת}{67}{}%
-\contentsline {subsection}{ברוך אל עליון}{67}{}%
-\contentsline {subsection}{יום זה מכובד}{68}{}%
-\contentsline {subsection}{יום שבתון}{69}{}%
-\contentsline {subsection}{שימרו שבתותי}{70}{}%
-\contentsline {subsection}{כי אשמרה שבת}{72}{}%
-\contentsline {subsection}{דרור יקרא}{73}{}%
-\contentsline {section}{זמירות לסעודה שלישית}{74}{}%
-\contentsline {subsection}{מזמור לדוד}{74}{}%
-\contentsline {subsection}{ידיד נפש}{74}{}%
-\contentsline {section}{זמירות למוצאי שבת}{75}{}%
-\contentsline {subsection}{אליהו הנביא}{75}{}%
-\contentsline {subsection}{המבדיל}{77}{}%
-\contentsline {subsection}{אמר ה׳ ליעקוב}{78}{}%
-\contentsline {section}{שירי עם}{79}{}%
-\contentsline {subsection}{ירושלים של זהב}{79}{}%
-\contentsline {subsection}{שישו את ירושלים}{80}{}%
-\contentsline {subsection}{בשנה הבאה}{81}{}%
-\contentsline {subsection}{אני ואתה}{81}{}%
-\contentsline {subsection}{על כל אלה}{82}{}%
-\contentsline {subsection}{רב הלילה}{83}{}%
-\contentsline {subsection}{נולדתי לשלום}{84}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{hebrew}
 \bgroup 
 \selectlanguage *{russian}
 \egroup 
 \selectlanguage *{hebrew}
-\contentsline {subsection}{עוד לא אהבתי די}{86}{}%
-\contentsline {subsection}{אלי אלי}{87}{}%
-\contentsline {subsection}{ערב של שושנים}{87}{}%
-\contentsline {subsection}{שירת העשבים}{88}{}%
-\contentsline {subsection}{הפינג'אן}{89}{}%
-\contentsline {subsection}{שלום על ישראל}{90}{}%
-\contentsline {subsection}{ערב בא}{90}{}%
-\contentsline {subsection}{מחר}{91}{}%
-\contentsline {subsection}{שיר ישראלי}{92}{}%
+\bgroup 
+\selectlanguage *{english}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{english}
+\bgroup 
+\selectlanguage *{russian}
+\egroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{hebrew}
+\contentsline {subsection}{שבע ברכות}{26}{}%
+\contentsline {subsection}{ברכה מעין שלש}{28}{}%
+\contentsline {subsection}{בורא נפשות}{29}{}%
+\contentsline {section}{סדר ליל השבת}{30}{}%
+\contentsline {subsection}{שיר השירים}{30}{}%
+\contentsline {subsection}{הדלקת נרות}{36}{}%
+\contentsline {subsection}{שלום עליכם}{36}{}%
+\contentsline {subsection}{ברכת הבנים}{37}{}%
+\contentsline {subsection}{אשת חיל}{38}{}%
+\contentsline {subsection}{קידוש לליל שבת}{39}{}%
+\contentsline {section}{סדר יום השבת}{40}{}%
+\contentsline {subsection}{חי ה׳}{40}{}%
+\contentsline {subsection}{קידוש רבא}{41}{}%
+\contentsline {section}{סדר מוצאי שבת}{43}{}%
+\contentsline {subsection}{גאָט פון אברהם}{43}{}%
+\contentsline {subsection}{הבדלה}{43}{}%
+\contentsline {section}{חגים ומועדים}{45}{}%
+\contentsline {subsection}{עירוב תבשילין}{45}{}%
+\contentsline {subsection}{הדלקת נרות של יו״ט}{45}{}%
 \bgroup 
 \selectlanguage *{russian}
 \egroup 
 \selectlanguage *{hebrew}
-\contentsline {subsection}{אויפן פריפעטשיק}{94}{}%
-\contentsline {subsection}{שנירעלע־פּערעלע}{95}{}%
+\contentsline {subsection}{קידוש לשלוש רגלים}{47}{}%
+\contentsline {subsection}{קידוש לראש השנה}{49}{}%
+\contentsline {subsection}{הדלקת נרות של חנוכה}{51}{}%
+\contentsline {section}{זמירות לליל שבת}{54}{}%
+\contentsline {subsection}{כל מקדש}{54}{}%
+\contentsline {subsection}{מנוחה ושמחה}{55}{}%
+\contentsline {subsection}{מה ידידות}{56}{}%
+\contentsline {subsection}{יום זה לישראל}{58}{}%
+\contentsline {subsection}{יה ריבון}{59}{}%
+\contentsline {subsection}{צמאה נפשי}{60}{}%
+\contentsline {subsection}{יודוך רעיוני}{61}{}%
+\contentsline {subsection}{על אהבתך}{61}{}%
+\contentsline {subsection}{יה אכסוף}{63}{}%
+\contentsline {subsection}{צור משלו}{64}{}%
+\contentsline {section}{זמירות ליום השבת}{65}{}%
+\contentsline {subsection}{ברוך אל עליון}{65}{}%
+\contentsline {subsection}{יום זה מכובד}{66}{}%
+\contentsline {subsection}{יום שבתון}{67}{}%
+\contentsline {subsection}{שימרו שבתותי}{68}{}%
+\contentsline {subsection}{כי אשמרה שבת}{70}{}%
+\contentsline {subsection}{דרור יקרא}{71}{}%
+\contentsline {section}{זמירות לסעודה שלישית}{72}{}%
+\contentsline {subsection}{מזמור לדוד}{72}{}%
+\contentsline {subsection}{ידיד נפש}{72}{}%
+\contentsline {section}{זמירות למוצאי שבת}{73}{}%
+\contentsline {subsection}{אליהו הנביא}{73}{}%
+\contentsline {subsection}{המבדיל}{75}{}%
+\contentsline {subsection}{אמר ה׳ ליעקוב}{76}{}%
+\contentsline {section}{שירי עם}{77}{}%
+\contentsline {subsection}{ירושלים של זהב}{77}{}%
+\contentsline {subsection}{שישו את ירושלים}{78}{}%
+\contentsline {subsection}{בשנה הבאה}{79}{}%
+\contentsline {subsection}{אני ואתה}{79}{}%
+\contentsline {subsection}{על כל אלה}{80}{}%
+\contentsline {subsection}{רב הלילה}{81}{}%
+\contentsline {subsection}{נולדתי לשלום}{82}{}%
+\bgroup 
+\selectlanguage *{russian}
+\egroup 
+\selectlanguage *{hebrew}
+\contentsline {subsection}{עוד לא אהבתי די}{84}{}%
+\contentsline {subsection}{אלי אלי}{85}{}%
+\contentsline {subsection}{ערב של שושנים}{85}{}%
+\contentsline {subsection}{שירת העשבים}{86}{}%
+\contentsline {subsection}{הפינג'אן}{87}{}%
+\contentsline {subsection}{שלום על ישראל}{88}{}%
+\contentsline {subsection}{ערב בא}{88}{}%
+\contentsline {subsection}{מחר}{89}{}%
+\contentsline {subsection}{שיר ישראלי}{90}{}%
+\bgroup 
+\selectlanguage *{russian}
+\egroup 
+\selectlanguage *{hebrew}
+\contentsline {subsection}{אויפן פריפעטשיק}{92}{}%
+\contentsline {subsection}{שנירעלע־פּערעלע}{93}{}%

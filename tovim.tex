@@ -57,11 +57,11 @@
 }
 
 \newcommand{\instructionen}[1]{%
-\noindent{\englishprose\tiny\textbf{\textit{#1}}}%
+\noindent{\englishprose\fontsize{5.6}{6.5}\selectfont\textbf{\textit{#1}}}%
 }
 
 \newcommand{\instructionru}[1]{%
-\noindent{\russianprose\tiny\textbf{\textit{#1}}}%
+\noindent{\russianprose\fontsize{5.6}{6.5}\textbf{\textit{#1}}}%
 }
 
 % formats
@@ -524,9 +524,10 @@ come again with rejoicing, bringing his sheaves with him.
 
 \begin{samepage}
 
-% TODO: restore pasuk
-% TODO: ornament 171
 \subsection{זימון}
+% TODO: check mekor placement
+% TODO: ornament 171
+\strut\mekor[-2.2\baselineskip]{\ps קיג ב}%
 {\footnotesize%
 \begin{tabular}{rr}
 \instruction{מזמן:}&
@@ -551,13 +552,19 @@ come again with rejoicing, bringing his sheaves with him.
 \end{tabular}
 }
 
+% TODO: check mekor placement
+\strut\mekor[5.3\baselineskip]{\ps ט י}%
+\mekor[5.8\baselineskip]{\ps סה ז}%
+\mekor[6.2\baselineskip]{\ps צג ד}%
+\qmekor[8.3\baselineskip]{\deut לג ד}%
+\mekor[13.7\baselineskip]{\ps קיח כו}%
 {\footnotesize
 {\centering
 \instruction{%
 בסעודת שבע ברכות או ברית מילה, פותחים ברבותי ויהי שם כרגיל, ואח״כ
 המזמן ממשיך:}\par
 }
-\begin{tabularx}{\textwidth}{X|X}
+\begin{tabularx}{\textwidth}{p{0.4\linewidth}|p{0.5\linewidth}}
 \makecell[c]{\instruction{בסעודת שבע ברכות}}
 &
 \makecell[c]{\instruction{בסעודת ברית מילה}}
@@ -606,8 +613,8 @@ come again with rejoicing, bringing his sheaves with him.
 \scriptsize%
 נוֹדֶה לְשִׁמְךָ בְּתוֹךְ אֱמוּנַי,\\בְּרוּכִים אַתֶּם לַיְיָ.\\[0.25em]
 בִּרְשׁוּת אֵל אָיוֹם וְנוֹרָא\\
-מִשְׂגָּב לְעִתּוֹת בַּצָּרָה.\\
-אֵל נֶאְזָר בִּגְבוּרָה\hfill אַדִּיר בַּמָּרוֹם יְיָ.\\[0.25em]
+{\mikra מִ֝שְׂגָּ֗ב לְעִתּ֥וֹת בַּצָּרָֽה}.\\
+אֵל {\mikra נֶ֝אְזָ֗ר בִּגְבוּרָֽה}\hfill {\mikra אַדִּ֖יר בַּמָּר֣וֹם יְהוָֽה}.\\[0.25em]
 בִּרְשׁוּת הַתּוֹרָה הַקְּדוֹשָׁה\\
 טְהוֹרָה הִיא וְגַם פְּרוּשָׁה.\\
 צִוָּה לָנוּ מוֹרָשָׁה\hfill משֶׁה עֶבֶד יְיָ.\\[0.25em]
@@ -617,7 +624,7 @@ come again with rejoicing, bringing his sheaves with him.
 בִּרְשׁוּת מָרָנָן וְרַבָּנָן וְרַבּוֹתַי\\
 אֶפְתְּחָה בְּשִׁיר פִּי וּשְׂפָתַי.\\
 וְתֹאמַרְנָה עַצְמוֹתַי\\
-\hfill{\footnotesize בָּרוּךְ הַבָּא בְּשֵׁם יְיָ.}\\
+\hfill{\footnotesize{\mikra בָּר֣וּךְ הַ֭בָּא בְּשֵׁ֣ם יְהוָ֑ה}!}\\
 \instruction{אח״כ המזמם ממשיך בברשות כרגיל}
 \end{minipage}
 }
@@ -630,7 +637,8 @@ come again with rejoicing, bringing his sheaves with him.
 
 {\fontsize{6.5}{7.5}%
 \begin{english}
-Translation placeholder
+  Translation placeholder
+
 \end{english}
 
 \begin{russian}
@@ -694,11 +702,38 @@ Translation placeholder
 
 \newpage
 
-{\fontsize{6.5}{7.5}%
+{\fontsize{6.5}{7.7}%
 \begin{english}
-Translation placeholder
-\end{english}
+\selectfont%
+\lineskiplimit=-\maxdimen%
+You are blessed, Lord our God, Ruler of the universe, Who in His
+goodness, kindness, and mercy nourishes the entire world. He
+%
+giveth food to all flesh: for his mercy endureth for ever.
+%
+And by His great goodness and for the sake of His great Name,
+never have we lacked nourishment, and so may we never
+lack it. For He is the God who nourishes all, sustains all,
+and does good to all, and He prepares nourishment for all of His
+creatures that he has created. As it is said
+%
+Thou openest Thine hand, and satisfiest the desire of every living thing.
+%
+You are blessed, Lord, Who nourishes all.
 
+We thank You, Lord our God, for endowing our forefathers with a precious,
+good, and spacious land; for bringing us out of the land of Egypt and
+redeeming us from the house of bondage; for Your covenant which You
+have sealed in our flesh; for Your Torah which You have taught us; for
+Your statutes which You have made known to us; for the life, grace, and
+kindness with which You have favored us; and for the food with
+which You nourish and sustain us constantly\textemdash{}%
+each day, at all times, and in every hour.\par
+\end{english}
+\vspace{\parskip}%
+\vfill%
+\hrule
+\vfill%
 \begin{russian}
 \selectfont%
 \lineskiplimit=-\maxdimen%
@@ -726,22 +761,34 @@ Translation placeholder
 \newpage
 
 \begin{samepage}
-
+\phantom{.}\vfill%
 \begin{floralbox}
 \instruction{בחנוכה ובפורים:}
 
 {\LARGE\centering וְעַל־הַנִּסִּים וְעַל־הַפֻּרְקָן וְעַל־הַגְּבוּרוֹת וְעַל־הַתְּשׁוּעוֹת
 וְעַל־הַמִּלְחָמוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה\par}
 \end{floralbox}
+\vfill%
+\phantom{.}
 \end{samepage}
-
 \newpage
 
 {\Large\centering%
+\vfill%
 \begin{english}
-Translation placeholder
+\instructionen{On Ḥanukkah and Purim one adds:}\\
+We thank You for the miracles,\\
+and for the deliverances,\\
+and for the mighty deeds,\\
+and for the salvations,\\
+and for the battles that\\
+You wrought for our ancestors\\
+in those days,
+at this season.
 \end{english}
-
+\vfill%
+\hrule
+\vfill%
 \begin{russian}
 \selectfont%
 \lineskiplimit=-\maxdimen%
@@ -751,10 +798,10 @@ Translation placeholder
 и за избавления,\\
 и за войны, которые Ты вел,\\
 защищая наших отцов\\
-в те дни в это время:\par
+в те дни в это время.\par
 \end{russian}
 }
-
+\vfill%
 \newpage
 
 \begin{samepage}
@@ -789,22 +836,52 @@ Translation placeholder
 
 \newpage
 
-{\fontsize{6.5}{7.5}%
+{\fontsize{6}{7.1}%
+\selectfont%
+\lineskiplimit=-\maxdimen%
 \begin{english}
-Translation placeholder
-\end{english}
+\instructionen{On Ḥanukkah:}
+In the days of Mattathias son of Yohanan, the High Priest, the
+Hasmonean, and his sons, when the wicked Greek kingdom rose up against
+Your people Israel to make them forget Your Torah and transgress the
+laws of Your will\textemdash{}You,
+in Your great mercy, stood by them in their
+time of distress. You took up their fight, judged their cause, avenged
+their wrongs; You delivered the mighty into the hands of the weak, the
+many into the hands of the few, the impure into the hands of the pure,
+the wicked into the hands of the righteous, and the insolent into the
+hands of those who are occupied with Your Torah. For Yourself You made
+a great and
+holy name in Your world, and for Your people Israel You wrought a
+great deliverance and redemption as on this day. Afterward, Your
+children came into the sanctuary of Your house, cleansed Your Temple,
+purified Your holy place, kindled lights in Your sacred courts, and
+established these eight days of Hanukkah to give thanks and praise to
+Your great Name.\par
 
+\instructionen{On Purim:}
+In the days of Mordechai and Esther, in Shushan the citadel, when the
+wicked Haman rose up against them and sought to destroy, slay, and
+annihilate all the Jews—young and old, infants and women, in one day,
+on the thirteenth of Adar, and to plunder them—You, in Your
+abundant mercy, frustrated his counsel, confounded his plot, and
+brought his mischief upon his own head. They hanged him and his sons
+upon the gallows.
+\end{english}
+\vfill%
+\hrule
+\vfill%
 \begin{russian}
 \selectfont%
 \lineskiplimit=-\maxdimen%
-\instructionru{В Хануку:}\\
+\instructionru{В Хануку:}
 Во дни Матитьяу, сына Йоханана, первосвященника, Хашмонаи, и сыновей
 его, когда восстало злодейское эллинское царство на народ Твой,
 Израиль, чтобы принудить евреев забыть Тору Твою и преступить законы
 воли Твоей, Ты в великом милосердии Своем встал за них во время беды
 их, боролся за них, судил за них, мстил за них, предал сильных в руку
-слабых, и многочисленных в руку малочисленных, и нечистых — в руку
-чистых, и грешных — в руку праведных, и злодеев — в руку занимающихся
+слабых, и многочисленных в руку малочисленных, и нечистых в руку
+чистых, и грешных в руку праведных, и злодеев в руку занимающихся
 Торой Твоей. А Себе создал Ты имя великое и святое в мире Твоем и
 народу Твоему, Израилю, принес Ты спасение великое и избавление по
 нынешний день. А затем вошли сыны Твои в Святая Святых Дома Твоего, и
@@ -812,7 +889,7 @@ Translation placeholder
 дворах святилища Твоего, и установили эти восемь дней Хануки, чтобы
 благодарить и славить имя Твое великое.
 
-\instructionru{В Пурим:}\\
+\instructionru{В Пурим:}
 Во дни Мордехая и Эстер в столичном граде Шушан, когда восстал на них
 злодей Аман, замыслил он истребить, умертвить и погубить всех иудеев,
 от юноши до старца, младенцев и женщин, в один день в тринадцатый день
@@ -846,15 +923,38 @@ Translation placeholder
 
 {\fontsize{6.5}{7.5}%
 \begin{english}
-Translation placeholder
+\selectfont%
+\lineskiplimit=-\maxdimen%
+For all this, Lord our God, we thank You and bless You. May Your name
+be blessed by every living being, always and forever, as it is
+written:
+%
+When thou hast eaten and art full, then thou shalt bless the Lord thy
+God for the good land which he hath given thee.
+%
+You are blessed, Lord, for the Land and for the sustenance.
+
+Have mercy, Lord our God, upon Israel Your people, upon Jerusalem Your
+city, upon Zion the dwelling of Your glory, upon the kingdom of the
+house of David Your anointed, and upon the great and holy house upon
+which Your name is called. Our God, our Father, tend us, sustain us,
+provide for us, support us, and grant us relief. Speedily, Lord our
+God, deliver us from all our troubles. We beseech You, Lord our God,
+let us not depend upon the gifts or loans of flesh and blood, but only
+upon Your full, open, holy, and generous hand, that we may never be
+ashamed or disgraced forever.\par
 \end{english}
+\vspace{\parskip}
+\hrule
 
 \begin{russian}
 \selectfont%
 \lineskiplimit=-\maxdimen%
 И за все, Господь, Бог наш, мы благодарим Тебя и благословляем Тебя.
 Да будет благословляемо Имя Твое устами всего живого всегда, во веки
-веков. Как написано: «И будешь есть и насыщаться, благословлять
+веков.
+Ибо сказано,
+«И будешь есть и насыщаться, благословлять
 Господа, Бога твоего, за землю добрую, которую Он дал тебе».
 Благословен Ты, Господь, за землю и за пищу.
 
@@ -909,9 +1009,90 @@ Translation placeholder
 
 \newpage
 
+{\fontsize{6}{7.1}%
 \begin{english}
-Translation placeholder
+\selectfont%
+\lineskiplimit=-\maxdimen%
+\instructionen{On the sabbath one adds:}
+Be pleased, Lord our God, to comfort us with Your commandments, and
+with the commandment of this great and holy seventh day, the Sabbath,
+which is great and holy before You\textemdash{}to rest and to find peace in love,
+according to Your will. In Your favor grant us rest, Lord our God,
+that there be no sorrow, anguish, or sighing on our day of rest. Show
+us, Lord our God, the consolation of Zion Your city and the rebuilding
+of Jerusalem Your holy city, for You alone are the Master of
+deliverance and the Master of consolation.\par
+
+\instructionen{On the New Moon and Festivals one adds:}
+Our God and God of our fathers, may our remembrance, the remembrance
+of our ancestors, of Jerusalem Your city, of the Messiah son of David
+Your servant, and of all Your people the house of Israel come before
+You—for deliverance, for goodness, for grace, for kindness, for mercy,
+for life, and for peace on this day: (%
+%\instructionen{On the New Moon:}
+the New Moon /
+%\instructionen{On Passover:}
+the Festival of Matzot /
+%\instructionen{On Sukkot:}
+the Festival of Booths /
+%\instructionen{On Shemini Atzeret:}
+the Eighth Day of Assembly /
+%\instructionen{On Shavuot:}
+the Festival of Weeks /
+%\instructionen{On Rosh HaShanah:}
+the Day of Remembrance).
+Remember us, Lord our God, for good; recall us for blessing; save us
+for life, by a word of deliverance and mercy. Have compassion and
+mercy upon us, and save us, for to You our eyes are turned—for You are
+a gracious and merciful King.\par
 \end{english}
+\vfill%
+\vspace{\parskip}%
+\hrule
+\vfill%
+\begin{russian}
+\selectfont%
+\lineskiplimit=-\maxdimen%
+\instructionru{В субботу прибавляют:}
+Да будет угодно Тебе, Господь, Бог наш, укрепить нас в исполнении всех
+заповедей Твоих и в исполнении этой заповеди закона о седьмом дне,
+дне великом и святом, — субботе; ибо день этот велик и свят для Тебя
+Самого, и нам подобает проводить его в покое и отдыхе, выполняя из
+любви к Тебе эту заповедь, установленную по воле Твоей. И да будет
+угодно Тебе даровать нам покой в этот день, чтобы не было бед,
+горестей и страданий в день отдыха нашего, и дай увидеть нам, Господь,
+Бог наш, утешение Сиона, города, где пребываешь Ты, восстановление
+Иерусалима, святого города твоего, ибо Ты — избавитель и утешитель!
+
+\instructionru{В новомесячие и праздники прибавляют:}
+Бог наш и Бог отцов наших! Пусть пред Тобою поднимется и придет, и
+достигнет, и будет зрима и желанна, и услышана, и отмечена и
+вспомянута память о нас и раздумье о нас, и память о наших отцах, и
+память о Машиахе, сыне Давида, раба Твоего, и память об Иерусалиме,
+святом городе Твоем, и память о всем народе Твоем, доме Израиля, для
+спасения и добра, для
+благосклонности к нам, для милости и милосердия, и для жизни и мира, а
+этот день
+(%\instructionru{в новомесячие:}
+начала месяца /
+%\instructionru{в Песах:}
+праздника мацы /
+%\instructionru{в Суккот:}
+праздника Суккот /
+%\instructionru{в Шавуот:}
+праздника Шавуот /
+%\instructionru{в Шмини Ацерет:}
+праздника Шмини Ацерет /
+%\instructionru{в Рош ха-Шана:}
+памяти).
+Вспомни нас, Господь Бог наш, в этот день для добра и отметь нас в
+этот день для благословения, и спаси нас в этот день для жизни. И
+словом спасения и милосердия пощади помилуй нас, и смилуйся над нами,
+и спаси нас, ибо к Тебе устремлены глаза наши, ибо Ты, Бог, Царь
+милостивый и милосердный.\par
+\end{russian}
+}
+
 \newpage
 
 \begin{samepage}
@@ -954,9 +1135,64 @@ Translation placeholder
 
 \newpage
 
+{\fontsize{6}{7.1}%
 \begin{english}
-Translation placeholder
+\selectfont%
+\lineskiplimit=-\maxdimen%
+And rebuild Jerusalem, the holy city, speedily in our days.
+You are blessed, Lord, who in His mercy rebuilds Jerusalem. Amen.
+
+You are blessed, Lord our God, Ruler of the
+universe\textemdash{}God, our
+Father, our King, our Mighty One, our Creator and Redeemer, our Maker
+and Sanctifier, the Holy One of Jacob, our Shepherd, the Shepherd of
+Israel—the good and beneficent King who does good to all. Each and
+every day He has done good, He does good, and He will do good for us
+forever: granting us grace, kindness, and mercy; relief, salvation,
+success, blessing, deliverance, comfort, sustenance, provision,
+compassion, life, and peace, and all good things. And from all good
+things may we never be lacking.
+
+The Merciful One should reign over us forever and ever. The Merciful
+One should be blessed in the heavens and on the earth. The Merciful One
+should be praised from generation to generation, and glorified in us
+forever and ever, and adorned in us for all eternity. The Merciful One
+should sustain us with honor. The Merciful One should break the yoke of
+exile from upon our shoulders, and should lead us upright into our
+land. The Merciful One should send abundant blessing upon this house,
+and upon this table at which we have eaten.\par
 \end{english}
+\vfill%
+\vspace{\parskip}%
+\hrule
+\vfill%
+\begin{russian}
+\selectfont%
+\lineskiplimit=-\maxdimen%
+И возведи Иерусалим, святой город, вскоре, в наши дни. Благословен Ты,
+Господь, по милосердию Своему возводящий Иерусалим. Амен!
+
+Благословен Ты, Господь, Бог наш, Царь вселенной, Бог, Отец наш, Царь
+наш, Могучий наш, Творец наш, Избавитель наш, Создатель наш, Святой
+наш, Святой Яакова, пастырь наш, пастырь Израиля, Царь предобрый
+творящий добро всем во всякий день. Он благотворил, Он благотворит, Он
+будет благотворить нам. Он воздавал нам, Он воздает нам, Он будет
+воздавать нам вовеки благосклонностью, милостью и милосердием, и
+облегчением, спасением, и успехом, благословением, и спасением,
+утешением, пропитанием и обеспечением, и милосердием, и жизнью, и
+миром, и всяким благом, и всякого блага да не лишит Он нас.
+
+Милосердный, да будет царствовать Он над нами во веки веков.
+Милосердный, да будет Он благословляем на небесах и на земле.
+Милосердный, да будет Он восхваляем из поколения в поколение и
+прославляем среди нас во веки вечные, и возвеличивается среди нас
+навсегда и на вечные времена. Милосердный, пусть же даст Он нам
+средства к существованию с честью. Милосердный, да разобьет Он ярмо
+изгнаний наших с нашей шеи и да поведет Он нас с поднятой головой на
+нашу землю. Милосердный, да пошлет Он щедрое благословение в этот дом
+и на этот стол, за которым мы ели.\par
+\end{russian}
+}
 \newpage
 
 הָרַחֲמָן הוּא יִשְׁלַח לָֽנוּ אֶת אֵלִיָּֽהוּ הַנָּבִיא זָכוּר לַטּוֹב, וִיבַשֶּׂר לָֽנוּ בְּשׂוֹרוֹת טוֹבוֹת
@@ -998,15 +1234,88 @@ Translation placeholder
 
 \newpage
 
+{\fontsize{5.6}{6.5}%
 \begin{english}
-Translation placeholder
+\selectfont%
+\lineskiplimit=-\maxdimen%
+The Merciful One should send us Elijah the Prophet, remembered for
+good, and bring us tidings of salvation and comfort.
+
+\instructionen{A guest recites:}
+May it be Your will that the masters of this house be neither shamed
+in this world nor disgraced in the world to come; may they succeed
+abundantly in all their possessions; may their wealth and ours prosper
+and be secure; may the adversary have no power over their deeds or
+over our deeds; may no thought of sin, transgression, or wrongdoing
+come upon them or upon us, now and forever.
+The Merciful One should bless (my father,) the master of this house, and
+(my mother,) the mistress of this house\textemdash{} them, their
+household, their offspring, and all that is theirs; and us, our
+household, and all that
+is ours.
+
+\instructionen{At one's own table:}
+The Merciful One should bless me (and my father / and my mother / and
+my wife / and my husband / and my brother / and my sister / and my
+offspring), and all that is mine; and us, and all that is ours.
+
+Just as our forefathers Abraham, Isaac, and Jacob were abundantly
+blessed in every way, so too may we all together be blessed with
+complete blessing. And we say: Amen.
+
+May the heavens declare merit for them and for us, to preserve peace.
+May we receive blessing from the Lord, righteousness from the God of
+our salvation, and find favor and all good in the eyes of God and of
+humanity.
+
+The Merciful One should bless the State of Israel.\par
 \end{english}
+\vfill%
+\vspace{\parskip}%
+\hrule
+\vfill%
+\begin{russian}
+\selectfont%
+\lineskiplimit=-\maxdimen%
+Милосердный да пошлет нам Илью Пророка, поминаемого во благо, и
+принесет нам вести о спасении и утешении.
+
+\instructionru{Гость произносит:}
+Да будет воля Твоя, чтобы хозяева этого дома не были опозорены в этом
+мире и не постыдились в будущем мире; да сопутствует им огромный успех
+во всех их владениях; да будут их богатства и наши благополучны и
+надежны; пусть враг не имеет власти над их делами или над нашими;
+пусть никакая мысль о грехе, проступке или беззаконии не постигнет их
+и нас, теперь и во веки веков.
+Милосердный да благословит (моего отца,) хозяина этого дома, и (мою
+мать,) хозяйку этого дома\textemdash{} их, их дом, их потомство и всё,
+что принадлежит им; и нас, наш дом и всё, что принадлежит нам.
+
+\instructionru{За собственным столом произносят:}
+Милосердный да благословит меня (и моего отца / и мою мать / и мою
+жену / и моего мужа / и моего брата / и мою сестру / и мое потомство),
+и всё, что принадлежит мне; и нас, и всё, что принадлежит нам.
+
+Как благословлялись наши отцы Авраам, Исаак и Иаков во всяком смысле,
+так пусть и мы все вместе будем благословлены полнотой благословения.
+И скажем: Аминь.
+
+Пусть на небесах будет заслуга за них и за нас, охраняющая мир. Пусть
+мы получим благословение от Господа, праведность от Бога нашего
+спасения и обретем благосклонность и все добро в глазах Бога и людей.
+
+Милосердный да благословит Государство Израиль.\par
+\end{russian}
+}
 \newpage
 
 הָרַחֲמָן הוּא יְבָרֵךְ אֶת חַיָּלֵי צְבָא הַהֲגַנָּה לְיִשְׂרָאֵל וְאַנְשֵׁי כֹּחוֹת הַבִּטָּחוֹן, הָעוֹמְדִים עַל
 מִשְׁמַר אַרְצֵֽנוּ וְעָרֵי אֱלֹהֵֽינוּ, מִגְּבוּל הַלְּבָנוֹן וְעַד מִדְבַּר מִצְרַֽיִם, וּמִן הַיָּם הַגָּדוֹל עַד
 לְבוֹא הָעֲרָבָה, בַּיַּבָּשָׁה בָּאֲוִיר וּבַיָּם.
 
+\instruction{בסעודת ברית מילה אומרים כאן הרחמן שבעמוד \pageref{sec:bris}.}
+
+\vspace{-1.5\parskip}%
 % TODO check mekor placement
 \strut\mekor[6.4\baselineskip]{עמוס ט יא}
 \begin{simplebox}
@@ -1056,7 +1365,63 @@ Translation placeholder
 \newpage
 
 \begin{english}
-Translation placeholder
+{\fontsize{6}{7.1}%
+\begin{english}
+\selectfont%
+\lineskiplimit=-\maxdimen%
+The Merciful One should bless the soldiers of the Israel Defense Forces
+and all who serve in the forces of security, who stand watch
+over our land and the cities of our God, from the border of Lebanon to
+the desert of Egypt, and from the Great Sea to the approach of the
+Arabah, on land, in the air, and at sea.
+
+\instructionen{On the Sabbath:}
+The Merciful One should grant us the day that is wholly Sabbath and rest for eternal life.
+\instructionen{On the New Moon:}
+The Merciful One should renew this month for us for goodness and for blessing.
+\instructionen{On a Festival:}
+The Merciful One should grant us the day that is wholly good.
+\instructionen{On Rosh Hashanah:}
+The Merciful One should renew this year for us for goodness and for blessing.
+\instructionen{On Sukkot:}
+The Merciful One should raise up for us the fallen tabernacle of David.
+
+The Merciful One should make us worthy of the days of the Messiah and of
+life in the world to come.
+“He magnifies the victories of His king, and shows steadfast love to
+His anointed—to David and his descendants forever.”
+“He makes peace in His heights—may He make peace upon us and upon all
+Israel, and let us say: Amen.”\par
+\end{english}
+\vfill%
+\vspace{\parskip}%
+\hrule
+\vfill%
+\begin{russian}
+\selectfont%
+\lineskiplimit=-\maxdimen%
+Да благословит Милосердный войнов Армии обороны Израиля и всех, кто
+служит в силах безопасности, стоящих на страже земли нашей и городов
+Бога нашего, от границы Ливана и до пустыни Египта, от Великого моря и
+до подножия Аравы \textemdash{} на суше, в воздухе и на море.
+
+\instructionru{В субботу:}
+Да дарует Милосердный нам день, весь посвящённый Субботе и покою жизни вечной.
+\instructionru{В новомесячие:}
+Да обновит Милосердный этот месяц для нас во благо и на благословение.
+\instructionru{В праздник:}
+Да дарует Милосердный нам день, весь исполненный добра.
+\instructionru{В Рош ха-Шана:}
+Да обновит Милосердный этот год для нас во благо и на благословение.
+\instructionru{В Суккот:}
+Да воздвигнет Милосердный павшую скинию Давида.
+
+Да удостоит нас Милосердный дней Мессии и жизни в мире грядущем.
+«Он возвеличивает спасение царя Своего и являет милость Свою помазаннику Своему — Давиду и потомству его во веки веков.»
+«Он творит мир в высотах Своих — да сотворит мир над нами и над всем
+Израилем, и скажем: аминь.»\par
+\end{russian}
+}
 \end{english}
 \newpage
 
@@ -1095,11 +1460,6 @@ Translation placeholder
 
 \newpage
 
-\begin{english}
-Translation placeholder
-\end{english}
-\newpage
-
 \subsection{שבע ברכות}
 
 {%
@@ -1129,12 +1489,7 @@ Translation placeholder
 
 \newpage
 
-\begin{english}
-Translation placeholder
-\end{english}
-\newpage
-
-\subsection{הרחמן לברית מילה}
+\subsection*{הרחמן לברית מילה}\label{sec:bris}
 % TODO psukim
 % TODO move to body?
 
