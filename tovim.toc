@@ -93,14 +93,10 @@
 \selectlanguage *{hebrew}
 \bgroup 
 \selectlanguage *{english}
-\bgroup 
-\selectlanguage *{english}
 \egroup 
-\selectlanguage *{english}
+\selectlanguage *{hebrew}
 \bgroup 
 \selectlanguage *{russian}
-\egroup 
-\selectlanguage *{english}
 \egroup 
 \selectlanguage *{hebrew}
 \contentsline {subsection}{שבע ברכות}{26}{}%
