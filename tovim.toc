@@ -99,7 +99,7 @@
 \selectlanguage *{russian}
 \egroup 
 \selectlanguage *{hebrew}
-\contentsline {subsection}{שבע ברכות}{26}{}%
+\contentsline {subsection}{שבע ברכות}{25}{}%
 \contentsline {subsection}{ברכה מעין שלש}{28}{}%
 \contentsline {subsection}{בורא נפשות}{29}{}%
 \contentsline {section}{סדר ליל השבת}{30}{}%
@@ -177,3 +177,7 @@
 \selectlanguage *{hebrew}
 \contentsline {subsection}{אויפן פריפעטשיק}{92}{}%
 \contentsline {subsection}{שנירעלע־פּערעלע}{93}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{hebrew}
