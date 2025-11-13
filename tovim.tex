@@ -82,7 +82,6 @@
 
 \newcommand{\evenpar}[0]{\phantom{.}\quad\xspace}
 
-% TODO: pick a better highlighting method
 \newcommand{\highlight}[1]{\textcolor[HTML]{7F05A4}{#1}}
 
 % https://tex.stackexchange.com/questions/262584/is-there-a-general-method-for-obtaining-small-caps-with-custom-fonts
@@ -348,9 +347,10 @@
 {\plain{}ראש חודש טבת תשפ״ו}\\
 \vfill%
 \mbox{%
-\pgfornament[height=0.33in,symmetry=v]{158}
-\pgfornament[height=0.3in]{196}
-\pgfornament[height=0.33in]{158}
+  \hspace{0.3em}%
+  \pgfornament[height=0.33in,symmetry=v]{158}%
+  \pgfornament[height=0.3in]{196}%
+  \pgfornament[height=0.33in]{158}
 }\par%
 }
 \clearpage
@@ -367,7 +367,6 @@
 {\prose%
 \setlength{\parskip}{2pt}%
 \lineskiplimit=-\maxdimen%
-% TODO: thanks, attributions
 \begin{english}
 \scriptsize%
 {\centering%
@@ -476,7 +475,6 @@ bentsher can be found at\par
 \begin{samepage}
 \subsection{תהלים לפני זימון}
 
-% TODO try to fix spacing
 \begin{russian}
 \begin{floatingfigure}[r]{0.6\textwidth}
 \adjustbox{max width=0.6\textwidth}{%
@@ -1962,7 +1960,6 @@ with peace.
 \newpage
 \subsection{אשת חיל}
 
-% TODO remove trop
 {\centering\small%
 \vspace{-0.1in}% TODO fix centering
 \pgfornament[height=0.4in]{127}\par
@@ -2496,10 +2493,9 @@ with peace.
 
 \subsection{הדלקת נרות של חנוכה}
 
-% TODO bracha girsa
 {\centering\Large%
 \instruction{לפני הדלקת הנרות מברכים:}\\
-בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם\\אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ\\לְהַדְלִיק נֵר חֲנֻכָּה.
+בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם\\אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ\\לְהַדְלִיק נֵר שֶׁל חֲנֻכָּה.
 
 בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם\\שֶׁעָשָׂה נִסִּים לַאֲבוֹתֵינוּ\\בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה.
 
@@ -3223,7 +3219,7 @@ with peace.
 
 \evenpar{}\highlight{הִ}נֵּה יוֹם גְּאֻלָּה יוֹם שַׁבָּת אִם תִּשְׁמֹרוּ\\
 \evenpar{}{\mikra וִהְיִ֨יתֶם\mekor{\exd יט ה} לִ֤י סְגֻלָּה֙}\\
-\evenpar{}לִינוּ וְאַחַר תַּעֲבֹרוּ\\
+\evenpar{}לִינוּ וְאַחַר\qmekor[1.5\lineskip]{\gen יח ה} תַּעֲבֹרוּ\qmekor[-4.25\lineskip]{\gen יט ב}\\
 \evenpar{}וְאָז תִּחְיוּ לְפָנַי וְתִמָּלְאוּ צְפוּנַי\hfill{\footnotesize שַׁבָּת הַיּוֹם לַיְיָ}
 
 חַזֵּק קִרְיָתִי אֵל אֱלֹהִים עֶלְיוֹן\\
