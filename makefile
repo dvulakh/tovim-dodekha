@@ -10,6 +10,5 @@ all: $(PDF)
 %.pdf: %.tex
 	$(LATEXMK) $<
 
-# Clean intermediate files (keep PDFs)
 clean:
-	rm -f *.aux *.fdb_latexmk *.fls *.log *.synctex.gz *.toc *.xdv
+	rm -f *.aux *.fdb_latexmk *.fls *.log *.synctex.gz *.toc *.xdv *.pdf
