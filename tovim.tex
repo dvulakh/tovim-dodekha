@@ -35,21 +35,103 @@
 \setotherlanguage{english}
 \setotherlanguage{russian}
 
-%\newfontfamily\hebrewfont[Script=Hebrew,Scale=1.1]{Taamey Frank CLM}
-\newfontfamily\hebrewfont[Script=Hebrew,Scale=1.25]{Drugulin CLM}
-%\newfontfamily\hebrewfontbf[Script=Hebrew,Scale=1.25]{Drugulin CLM Bold}
-%\newfontfamily\hebrewfont[Script=Hebrew,Scale=0.8]{Ezra SIL}
-%\newfontfamily\titlefont[Script=Hebrew,Scale=1.25]{Yiddishkeit AlefAlefAlef Bold}
-\newfontfamily\titlefont[Script=Hebrew,Scale=1.25]{Drugulin CLM}
-%\newfontfamily\mikra[Script=Hebrew,Scale=1.2]{Keter Aram Tsova}
-%\newfontfamily\mikra[Script=Hebrew,Scale=0.9]{Shlomo Stam}
-\newfontfamily\mikra[Script=Hebrew,Scale=0.9]{Shlomo semiStam}
-%\newfontfamily\mikra[Script=Hebrew,Scale=1.25]{Stam Ashkenaz CLM}
-\newfontfamily\rashi[Script=Hebrew,Scale=1]{Mekorot-Rashi}
-\newfontfamily\stam[Script=Hebrew,Scale=1.25]{Stam Ashkenaz CLM}
-%\newfontfamily\plain[Script=Hebrew,Scale=1]{David Libre Medium}
-\newfontfamily\prose[Script=Hebrew,Scale=1.25]{David Libre Medium}
-\newfontfamily\plain[Script=Hebrew,Scale=1]{Mekorot-Rashi}
+%\newfontfamily\hebrewfont[
+%  Script=Hebrew,
+%  Scale=1.1,
+%  Path=./fonts/,
+%  Extension=.ttf
+%]{TaameyFrankCLM} % (no matching file → kept commented but unresolved)
+
+\newfontfamily\hebrewfont[
+  Script=Hebrew,
+  Scale=1.25,
+  Path=./fonts/,
+  Extension=.otf
+]{DrugulinCLM-Bold}
+
+%\newfontfamily\hebrewfontbf[
+%  Script=Hebrew,
+%  Scale=1.25,
+%  Path=./fonts/,
+%  Extension=.otf
+%]{DrugulinCLM-Bold}
+
+%\newfontfamily\hebrewfont[
+%  Script=Hebrew,
+%  Scale=0.8,
+%  Path=./fonts/,
+%  Extension=.ttf
+%]{EzraSIL} % (no matching file)
+
+%\newfontfamily\titlefont[
+%  Script=Hebrew,
+%  Scale=1.25,
+%  Path=./fonts/,
+%  Extension=.ttf
+%]{YiddishkeitAlefAlefAlef-Bold} % (no matching file)
+
+\newfontfamily\titlefont[
+  Script=Hebrew,
+  Scale=1.25,
+  Path=./fonts/,
+  Extension=.otf
+]{DrugulinCLM-Bold}
+
+%\newfontfamily\mikra[
+%  Script=Hebrew,
+%  Scale=1.2,
+%  Path=./fonts/,
+%  Extension=.ttf
+%]{KeterAramTsova}
+
+%\newfontfamily\mikra[
+%  Script=Hebrew,
+%  Scale=0.9,
+%  Path=./fonts/,
+%  Extension=.ttf
+%]{ShlomoStam}
+
+\newfontfamily\mikra[
+  Script=Hebrew,
+  Scale=0.9,
+  Path=./fonts/,
+  Extension=.ttf
+]{ShlomoSemiStam}
+
+%\newfontfamily\mikra[
+%  Script=Hebrew,
+%  Scale=1.25,
+%  Path=./fonts/,
+%  Extension=.ttf
+%]{StamAshkenazCLM}
+
+\newfontfamily\rashi[
+  Script=Hebrew,
+  Scale=1,
+  Path=./fonts/,
+  Extension=.ttf
+]{Mekorot-Rashi}
+
+%\newfontfamily\plain[
+%  Script=Hebrew,
+%  Scale=1,
+%  Path=./fonts/,
+%  Extension=.ttf
+%]{DavidLibre-Medium}
+
+\newfontfamily\plain[
+  Script=Hebrew,
+  Scale=1,
+  Path=./fonts/,
+  Extension=.ttf
+]{Mekorot-Rashi}
+
+\newfontfamily\prose[
+  Script=Hebrew,
+  Scale=1.25,
+  Path=./fonts/,
+  Extension=.ttf
+]{DavidLibre-Medium}
 
 \newcommand{\instruction}[1]{%
 \ifhmode\else\noindent\fi%
@@ -142,10 +224,25 @@
 
 \newcommand{\ykvk}[2]{\fakesc[#1][#2]{Lord}\xspace}
 
-\newfontfamily\englishfont[Scale=1.2]{Alice}
+\newfontfamily\englishfont[
+  Scale=1.2,
+  Path=./fonts/,
+  Extension=.ttf
+]{Alice-Regular}
+
+\newfontfamily\russianfont[
+  Scale=1.25,
+  Path=./fonts/,
+  Extension=.ttf
+]{Alice-Regular}
+
+\newfontfamily\russianverse[
+  Scale=1.25,
+  Path=./fonts/,
+  Extension=.ttf
+]{Alice-Regular}
+
 \newfontfamily\englishprose[Scale=1.25]{CMU Serif}
-\newfontfamily\russianfont[Scale=1.25]{Alice}
-\newfontfamily\russianverse[Scale=1.25]{Alice}
 \newfontfamily\russianprose[Scale=1.25]{CMU Serif}
 %\newfontfamily\russianverse[Scale=1.25]{Мирослав Regular}
 %\newfontfamily\russianfont[Scale=1.25]{Noto Serif}
