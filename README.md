@@ -1,4 +1,6 @@
-<img src="cover.svg" style="max-width:100%;">
+<p align="center">
+  <img src="cover.svg" style="max-width:100%;">
+</p>
 
 # Tovim Dodekha Miyyayin
 
