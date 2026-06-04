@@ -133,6 +133,14 @@
   Extension=.ttf
 ]{DavidLibre-Medium}
 
+%%% configurable settings %%%
+
+\newif\ifbaypsalmbook
+\baypsalmbooktrue
+%\baypsalmbookfalse
+
+%%% end configurable settings %%%
+
 \newcommand{\instruction}[1]{%
 \ifhmode\else\noindent\fi%
 {\plain\tiny{#1}}%
@@ -521,8 +529,11 @@ the Friedberg Genizah Project.
 Biblical quotations and allusions
 are prepared with the help of the DICTA project’s citation tool.
 
-The translations of biblical passages into English and Russian are
-from the King James and Russian Synodal Versions of the
+The English translations of Psalms are from the Bay Psalm Book
+({\englishprose\textit{%
+The Whole Booke of Psalmes Faithfully Translated into English Metre%
+}}). Remaining translations of biblical passages into English and
+Russian are from the King James and Russian Synodal Versions of the
 \texthebrew{\prose תנ״ך}.
 Remaining translations are combined from sources from
 {\englishprose\texttt{https://www.chabad.org}}
@@ -620,6 +631,44 @@ bentsher can be found at\par
 \lineskiplimit=-\maxdimen%
 \instructionen{On a day that taḥanun is recited:}
 
+\ifbaypsalmbook%
+The rivers on of Babylon
+there when we did sit down:\\
+Yea even then we mourned, when
+we remembered Zion.
+
+Our Harps we did hang it amid,
+upon the willow tree.\\
+Because there they that us away
+led in captivity,\\
+\evenpar{}Required of us a song, \& thus
+askt mirth: us waste who laid,\\
+\evenpar{}Sing us among a Zion song,
+unto us then they said.
+
+The \ykvk{6.5}{5.5}{}’s song sing can we be being
+in strangers land. Then let\\
+loose her skill my right hand, if I
+Jerusalem forget.\\
+\evenpar{}Let cleave my tongue my palate on,
+if mind thee do not I:\\
+\evenpar{}If chief joys or e’er I prize not more
+Jerusalem my joy.
+
+Remember \ykvk{6.5}{5.5}{}, Edom’s sons word,
+unto the ground said they,\\
+It rase, it rase, when as it was
+Jerusalem her day.\\
+\evenpar{}Blest shall he be, that payeth thee,
+daughter of Babylon;\\
+\evenpar{}Who must be waste: that which thou hast
+rewarded us upon.
+
+O happy he shall surely be
+that taketh up, that eke\\
+thy little ones against the stones
+doth into pieces break.\par
+\else%
 By the rivers of Babylon, there we sat down, yea, we wept, when we
 remembered Zion. We hanged our harps upon the willows in the midst
 thereof. For there they that carried us away captive required of us a
@@ -633,6 +682,7 @@ day of Jerusalem; who said, Rase it, rase it, even to the foundation
 thereof. O daughter of Babylon, who art to be destroyed; happy shall
 he be, that rewardeth thee as thou hast served us. Happy shall he be,
 that taketh and dasheth thy little ones against the stones.\par
+\fi%
 \end{english}
 \vspace{\parskip}%
 \hrule%
@@ -694,6 +744,29 @@ that taketh and dasheth thy little ones against the stones.\par
 \begin{english}
 \instructionen{On a day that taḥanun is not recited:}
 
+\ifbaypsalmbook%
+A song of degrees.
+
+When as the \ykvk{7.5}{6.4}{} returned again\\
+\evenpar{}Zion’s captivity:\\
+at that time unto them that dream\\
+\evenpar{}compared might we be.
+
+Then was our mouth with laughter filled,\\
+\evenpar{}with singing then our tongue:\\
+the \ykvk{7.5}{6.4}{} hath done great things for them\\
+\evenpar{}said they, the heathens among.
+
+The \ykvk{7.5}{6.4}{} hath done great things for us,\\
+\evenpar{}whereof we joyful be.\\
+As streams in South, do thou O \ykvk{7.5}{6.4}{},\\
+\evenpar{}turn our captivity.
+
+Who sow in tears, shall reap in joy.\\
+\evenpar{}Who do go forth, \& mourn,\\
+bearing choice seed, shall sure with joy\\
+\evenpar{}bringing their sheaves return.\par
+\else%
 A song of ascents. When the \ykvk{7.5}{6.4}{} turned again the
 captivity of Zion, we were like them that dream. Then was our mouth
 filled with laughter, and our tongue with singing: then said they
@@ -703,6 +776,7 @@ are glad. Turn again our captivity, O \ykvk{7.5}{6.4}{}, as the
 streams in the south. They that sow in tears shall reap in joy. He
 that goeth forth and weepeth, bearing precious seed, shall doubtless
 come again with rejoicing, bringing his sheaves with him.\par
+\fi%
 \end{english} % TODO add thilath hashem?
 \vspace{\parskip}%
 \hrule%
